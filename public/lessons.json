@@ -1,0 +1,222 @@
+{
+  "regentish": [
+    {
+      "title": "Saudações",
+      "icon": "",
+      "exercises": [
+        {
+          "phrase": "Servus, tutt'apostu?",
+          "pronunciation": "servus, tuttapostu?",
+          "tokens": ["olá", "tudo", "bem", "menino", "o", "a", "noventa"],
+          "rightAnswer": ["olá", "tudo", "bem"],
+          "translation": ["olá", "tudo bem"]
+        },
+        {
+          "phrase": "Bonanotte, ronnu Giovanni",
+          "pronunciation": "bonanotte, ronnu giovanni",
+          "tokens": [
+            "boa",
+            "noite",
+            "senhor",
+            "Giovanni",
+            "senhora",
+            "bom",
+            "dia"
+          ],
+          "rightAnswer": ["boa", "noite", "senhor", "Giovanni"],
+          "translation": ["boa noite", "senhor", ""]
+        },
+        {
+          "phrase": "Bona Jornata, ronna Maria",
+          "pronunciation": "bonaiornata, ronna Maria",
+          "tokens": ["bom", "dia", "senhora", "Maria", "noite", "boa"],
+          "rightAnswer": ["bom", "dia", "senhora", "maria"],
+          "translation": ["bom", "dia", "dona", ""]
+        },
+        {
+          "phrase": "Bo man, tutt'apostu?",
+          "pronunciation": "boman, tuttapostu?",
+          "tokens": ["olá", "tudo", "bem", "mês", "bom", "dia"],
+          "rightAnswer": ["olá", "tudo", "bem"],
+          "translation": ["olá (informal)", "olá (informal)", "tudo bem"]
+        },
+        {
+          "phrase": "Iu so a ronna Maria",
+          "pronunciation": "iu so a ronna maria",
+          "tokens": [
+            "eu",
+            "sou",
+            "a",
+            "senhora",
+            "Maria",
+            "Ezekiel",
+            "floresta"
+          ],
+          "rightAnswer": ["eu", "sou", "a", "senhora", "Maria"],
+          "translation": ["eu", "sou, são", "a, para", "senhora, dona", ""]
+        },
+        {
+          "phrase": "O nomme mi l'è Ezekiel",
+          "pronunciation": "o nommemi lè Ezzechiel",
+          "tokens": [
+            "o",
+            "meu",
+            "nome",
+            "é",
+            "Ezekiel",
+            "são",
+            "chamam",
+            "dia"
+          ],
+          "rightAnswer": ["o", "meu", "nome", "é", "Ezekiel"],
+          "translation": ["o", "nome", "meu, minha", "é", "Ezekiel"]
+        },
+        {
+          "phrase": "I me vadu bbié assé",
+          "pronunciation": "i me vàdu bbié assé",
+          "tokens": ["eu", "estou", "muito", "bem", "bom", "vou", "tu"],
+          "rightAnswer": ["eu", "estou", "muito", "bem"],
+          "translation": ["eu", "me, mim", "vou", "bem", "bastante, muito"]
+        },
+        {
+          "phrase": "I nun me vadu bbié",
+          "pronunciation": "i nunme vadu bbié",
+          "tokens": ["eu", "não", "estou", "bem", "bom", "vou", "ele"],
+          "rightAnswer": ["eu", "não", "estou", "bem"],
+          "translation": ["eu", "não", "me, mim", "vou", "bem"]
+        },
+        {
+          "phrase": "Cuntentu e cunuscetti",
+          "pronunciation": "cundendu eccunuscetti",
+          "tokens": [
+            "prazer",
+            "em",
+            "conhecê-lo",
+            "e",
+            "de",
+            "feliz",
+            "conhecer-me"
+          ],
+          "rightAnswer": ["prazer", "em", "conhecê-lo"],
+          "translation": ["prazer", "em", "conhecê-lo"]
+        },
+        {
+          "phrase": "Bo man, Giova'!",
+          "pronunciation": "bo man, giovà!",
+          "tokens": ["olá", "Giovanni", "bom", "mão", "mano", "mãe"],
+          "rightAnswer": ["olá", "Giovanni"],
+          "translation": ["olá", "Giovanni"]
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "title": "Família",
+      "icon": "",
+      "exercises": [],
+      "enabled": false
+    },
+    {
+      "title": "Clima e Localização",
+      "icon": "",
+      "exercises": [],
+      "enabled": false
+    },
+    {
+      "title": "Preferências",
+      "icon": "",
+      "exercises": [],
+      "enabled": false
+    },
+    {
+      "title": "Comida e Bebida",
+      "icon": "",
+      "exercises": [],
+      "enabled": false
+    },
+    {
+      "title": "Números",
+      "icon": "",
+      "exercises": [],
+      "enabled": false
+    },
+    {
+      "title": "Datas e Eventos",
+      "icon": "",
+      "exercises": [],
+      "enabled": false
+    },
+    {
+      "title": "Direções",
+      "icon": "",
+      "exercises": [],
+      "enabled": false
+    },
+    {
+      "title": "Hobbies e Compras",
+      "icon": "",
+      "exercises": [],
+      "enabled": false
+    },
+    {
+      "title": "Relacionamentos",
+      "icon": "",
+      "exercises": [],
+      "enabled": false
+    },
+    {
+      "title": "Casa",
+      "icon": "",
+      "exercises": [],
+      "enabled": false
+    },
+    {
+      "title": "Escola",
+      "icon": "",
+      "exercises": [],
+      "enabled": false
+    },
+    {
+      "title": "Esportes",
+      "icon": "",
+      "exercises": [],
+      "enabled": false
+    },
+    {
+      "title": "Descrever Pessoas",
+      "icon": "",
+      "exercises": [],
+      "enabled": false
+    },
+    {
+      "title": "Família",
+      "icon": "",
+      "exercises": [],
+      "enabled": false
+    },
+    {
+      "title": "Números II",
+      "icon": "",
+      "exercises": [],
+      "enabled": false
+    },
+    {
+      "title": "Ações no Presente",
+      "icon": "",
+      "exercises": [],
+      "enabled": false
+    },
+    {
+      "title": "Pretérito Imperfeito I",
+      "icon": "",
+      "exercises": [],
+      "enabled": false
+    },
+    {
+      "title": "Futuro I",
+      "icon": "",
+      "exercises": [],
+      "enabled": false
+    }
+  ]
+}
