@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+
 import './style.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { HomeScreen } from './screens/Home';
