@@ -2,7 +2,7 @@
   "regentish": [
     {
       "title": "Saudações",
-      "icon": "",
+      "icon": "person-raised-hand",
       "exercises": [
         {
           "phrase": "Servus, tutt'apostu?",
@@ -111,15 +111,157 @@
       "enabled": true
     },
     {
-      "title": "Família",
-      "icon": "",
-      "exercises": [],
-      "enabled": false
+      "title": "Família I",
+      "icon": "diagram-2-fill",
+      "exercises": [
+        {
+          "phrase": "Matre, patre e ffratellu",
+          "pronunciation": "madre, padre, effradell",
+          "tokens": [],
+          "rightAnswer": [],
+          "translation": []
+        },
+        {
+          "phrase": "So o fiju chiù joane ra familia",
+          "pronunciation": "soo fiu chiù ioane rafamilia",
+          "tokens": [],
+          "rightAnswer": [],
+          "translation": []
+        },
+        {
+          "phrase": "Ezekiel l'è o fiju chiù viecru ra familia",
+          "pronunciation": "ezzekiel lè o fiu chiù viecru rafamilia",
+          "tokens": [],
+          "rightAnswer": [],
+          "translation": []
+        },
+        {
+          "phrase": "A sorellame ze chiama Andrea",
+          "pronunciation": "a sorellami zi chiama andrea",
+          "tokens": [],
+          "rightAnswer": [],
+          "translation": []
+        },
+        {
+          "phrase": "O fratellume ze chiama Ezekiel",
+          "pronunciation": "o fradellumi zi chiama ezzekiel",
+          "tokens": [],
+          "rightAnswer": [],
+          "translation": []
+        },
+        {
+          "phrase": "A matreme le parra ngrese",
+          "pronunciation": "a madremi li parra ngresi",
+          "tokens": [],
+          "rightAnswer": [],
+          "translation": []
+        },
+        {
+          "phrase": "O patreme nun le parra regentinu",
+          "pronunciation": "o padremi nunli parra regendin",
+          "tokens": [],
+          "rightAnswer": [],
+          "translation": []
+        },
+        {
+          "phrase": "O patrete le parra regentinu e ngrese?",
+          "pronunciation": "o padredi li parra regendin engresi?",
+          "tokens": [],
+          "rightAnswer": [],
+          "translation": []
+        },
+        {
+          "phrase": "Nun tiengu matre né patre",
+          "pronunciation": "nun tiengu matre né ppatre",
+          "tokens": [],
+          "rightAnswer": [],
+          "translation": []
+        },
+        {
+          "phrase": "Chi è a matrete?",
+          "pronunciation": "chiè a madredi?",
+          "tokens": [],
+          "rightAnswer": [],
+          "translation": []
+        }
+      ],
+      "enabled": true
     },
     {
       "title": "Clima e Localização",
       "icon": "",
-      "exercises": [],
+      "exercises": [
+        {
+          "phrase": "",
+          "pronunciation": "",
+          "tokens": [],
+          "rightAnswer": [],
+          "translation": []
+        },
+        {
+          "phrase": "",
+          "pronunciation": "",
+          "tokens": [],
+          "rightAnswer": [],
+          "translation": []
+        },
+        {
+          "phrase": "",
+          "pronunciation": "",
+          "tokens": [],
+          "rightAnswer": [],
+          "translation": []
+        },
+        {
+          "phrase": "",
+          "pronunciation": "",
+          "tokens": [],
+          "rightAnswer": [],
+          "translation": []
+        },
+        {
+          "phrase": "",
+          "pronunciation": "",
+          "tokens": [],
+          "rightAnswer": [],
+          "translation": []
+        },
+        {
+          "phrase": "",
+          "pronunciation": "",
+          "tokens": [],
+          "rightAnswer": [],
+          "translation": []
+        },
+        {
+          "phrase": "",
+          "pronunciation": "",
+          "tokens": [],
+          "rightAnswer": [],
+          "translation": []
+        },
+        {
+          "phrase": "",
+          "pronunciation": "",
+          "tokens": [],
+          "rightAnswer": [],
+          "translation": []
+        },
+        {
+          "phrase": "",
+          "pronunciation": "",
+          "tokens": [],
+          "rightAnswer": [],
+          "translation": []
+        },
+        {
+          "phrase": "",
+          "pronunciation": "",
+          "tokens": [],
+          "rightAnswer": [],
+          "translation": []
+        }
+      ],
       "enabled": false
     },
     {

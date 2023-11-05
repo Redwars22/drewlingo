@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router';
+import { HeaderComponent } from '../components/Header.component';
 
 export function HomeScreen() {
   const [lessons, setLessons] = useState<
@@ -45,23 +46,42 @@ export function HomeScreen() {
     getLessons();
   }, []);
 
+  const LessonsArea = () => {
+    return (
+      <div style={{
+        display: "flex",
+        flexDirection: "column",
+        marginTop: "100px"
+      }}>
+        {lessons.map((lesson, index) =>
+          (
+            <button
+              className="btn-success"
+              disabled={!lesson.enabled}
+              style={{
+                width: "150px",
+                height: "150px",
+                textOverflow: "ellipsis"
+              }}
+              onClick={() =>
+                navigate('/learn', { state: lessons[index]!.exercises })
+              }
+            >
+              <i style={{
+                fontSize: "2rem"
+              }} className={`bi bi-${lesson!.icon}`}></i>
+              <p>{lesson!.title}</p>
+            </button>
+          )
+        )}
+      </div>
+    )
+  }
+
   return (
     <>
-      <h1 className="text text-success">Drewlingo</h1>
-      {lessons.map((lesson, index) =>
-        lesson.enabled ? (
-          <button
-            className="btn-success"
-            onClick={() =>
-              navigate('/learn', { state: lessons[index]!.exercises })
-            }
-          >
-            <p>{lesson!.title}</p>
-          </button>
-        ) : (
-          <></>
-        )
-      )}
+      <HeaderComponent />
+      <LessonsArea />
     </>
   );
 }

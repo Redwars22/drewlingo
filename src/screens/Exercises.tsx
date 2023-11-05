@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import { useLocation } from 'react-router';
+import { HeaderComponent } from '../components/Header.component';
 
 export default function ExercisesScreen(
   data: {
@@ -17,6 +18,7 @@ export default function ExercisesScreen(
   const [answer, setAnswer] = useState([]);
   const [rightAnswer, setRightAnswer] = useState([]);
   const [translations, setTranslations] = useState([]);
+  const [lives, setLives] = useState(3);
 
   const shuffleArray = (array) => {
     const shuffledArray = [...array];
@@ -68,12 +70,26 @@ export default function ExercisesScreen(
   }, [progress]);
 
   return (
-    <div className="container">
+    <div>
+      <HeaderComponent/>
+    <div className="container" style={{
+      marginTop: "100px"
+    }}>
+      <div style={{
+        display: "flex",
+        justifyContent: "space-around",
+        gap: "8px"
+      }}>
       <progress
         className="progress bar"
+        style={{
+          width: "50%"
+        }}
         value={progress}
         max={exercises.length}
       ></progress>
+      <div><i className='bi bi-heart-fill'></i>3</div>
+      </div>
       <br />
       <button
         className="btn btn-dark background-secondary"
@@ -122,9 +138,17 @@ export default function ExercisesScreen(
           ))}
       </>
       <br />
-      <button className="btn btn-success" onClick={() => checkAnswer()}>
+      <button style={{
+        marginTop: "24px"
+      }} className="btn btn-success" onClick={() => checkAnswer()}>
         Próximo
       </button>
+      <button style={{
+        marginTop: "24px"
+      }} className="btn btn-danger" onClick={() => setAnswer([])}>
+        Recomeçar
+      </button>
+    </div>
     </div>
   );
 }
