@@ -7,9 +7,24 @@
         {
           "phrase": "Servus, tutt'apostu?",
           "pronunciation": "servus, tuttapostu?",
-          "tokens": ["olá", "tudo", "bem", "menino", "o", "a", "noventa"],
-          "rightAnswer": ["olá", "tudo", "bem"],
-          "translation": ["olá", "tudo bem"]
+          "tokens": [
+            "olá",
+            "tudo",
+            "bem",
+            "menino",
+            "o",
+            "a",
+            "noventa"
+          ],
+          "rightAnswer": [
+            "olá",
+            "tudo",
+            "bem"
+          ],
+          "translation": [
+            "olá",
+            "tudo bem"
+          ]
         },
         {
           "phrase": "Bonanotte, ronnu Giovanni",
@@ -23,22 +38,63 @@
             "bom",
             "dia"
           ],
-          "rightAnswer": ["boa", "noite", "senhor", "Giovanni"],
-          "translation": ["boa noite", "senhor", ""]
+          "rightAnswer": [
+            "boa",
+            "noite",
+            "senhor",
+            "Giovanni"
+          ],
+          "translation": [
+            "boa noite",
+            "senhor",
+            ""
+          ]
         },
         {
           "phrase": "Bona Jornata, ronna Maria",
           "pronunciation": "bonaiornata, ronna Maria",
-          "tokens": ["bom", "dia", "senhora", "Maria", "noite", "boa"],
-          "rightAnswer": ["bom", "dia", "senhora", "maria"],
-          "translation": ["bom", "dia", "dona", ""]
+          "tokens": [
+            "bom",
+            "dia",
+            "senhora",
+            "Maria",
+            "noite",
+            "boa"
+          ],
+          "rightAnswer": [
+            "bom",
+            "dia",
+            "senhora",
+            "maria"
+          ],
+          "translation": [
+            "bom",
+            "dia",
+            "dona",
+            ""
+          ]
         },
         {
           "phrase": "Bo man, tutt'apostu?",
           "pronunciation": "boman, tuttapostu?",
-          "tokens": ["olá", "tudo", "bem", "mês", "bom", "dia"],
-          "rightAnswer": ["olá", "tudo", "bem"],
-          "translation": ["olá (informal)", "olá (informal)", "tudo bem"]
+          "tokens": [
+            "olá",
+            "tudo",
+            "bem",
+            "mês",
+            "bom",
+            "dia"
+          ],
+          "rightAnswer": [
+            "olá",
+            "tudo",
+            "bem"
+          ],
+          "translation": [
+            "olá (informal)",
+            "olá (informal)",
+            "tudo bem"
+          ]
         },
         {
           "phrase": "Iu so a ronna Maria",
@@ -52,8 +108,20 @@
             "Ezekiel",
             "floresta"
           ],
-          "rightAnswer": ["eu", "sou", "a", "senhora", "Maria"],
-          "translation": ["eu", "sou, são", "a, para", "senhora, dona", ""]
+          "rightAnswer": [
+            "eu",
+            "sou",
+            "a",
+            "senhora",
+            "Maria"
+          ],
+          "translation": [
+            "eu",
+            "sou, são",
+            "a, para",
+            "senhora, dona",
+            ""
+          ]
         },
         {
           "phrase": "O nomme mi l'è Ezekiel",
@@ -68,22 +136,72 @@
             "chamam",
             "dia"
           ],
-          "rightAnswer": ["o", "meu", "nome", "é", "Ezekiel"],
-          "translation": ["o", "nome", "meu, minha", "é", "Ezekiel"]
+          "rightAnswer": [
+            "o",
+            "meu",
+            "nome",
+            "é",
+            "Ezekiel"
+          ],
+          "translation": [
+            "o",
+            "nome",
+            "meu, minha",
+            "é",
+            "Ezekiel"
+          ]
         },
         {
           "phrase": "I me vadu bbié assé",
           "pronunciation": "i me vàdu bbié assé",
-          "tokens": ["eu", "estou", "muito", "bem", "bom", "vou", "tu"],
-          "rightAnswer": ["eu", "estou", "muito", "bem"],
-          "translation": ["eu", "me, mim", "vou", "bem", "bastante, muito"]
+          "tokens": [
+            "eu",
+            "estou",
+            "muito",
+            "bem",
+            "bom",
+            "vou",
+            "tu"
+          ],
+          "rightAnswer": [
+            "eu",
+            "estou",
+            "muito",
+            "bem"
+          ],
+          "translation": [
+            "eu",
+            "me, mim",
+            "vou",
+            "bem",
+            "bastante, muito"
+          ]
         },
         {
           "phrase": "I nun me vadu bbié",
           "pronunciation": "i nunme vadu bbié",
-          "tokens": ["eu", "não", "estou", "bem", "bom", "vou", "ele"],
-          "rightAnswer": ["eu", "não", "estou", "bem"],
-          "translation": ["eu", "não", "me, mim", "vou", "bem"]
+          "tokens": [
+            "eu",
+            "não",
+            "estou",
+            "bem",
+            "bom",
+            "vou",
+            "ele"
+          ],
+          "rightAnswer": [
+            "eu",
+            "não",
+            "estou",
+            "bem"
+          ],
+          "translation": [
+            "eu",
+            "não",
+            "me, mim",
+            "vou",
+            "bem"
+          ]
         },
         {
           "phrase": "Cuntentu e cunuscetti",
@@ -97,15 +215,36 @@
             "feliz",
             "conhecer-me"
           ],
-          "rightAnswer": ["prazer", "em", "conhecê-lo"],
-          "translation": ["prazer", "em", "conhecê-lo"]
+          "rightAnswer": [
+            "prazer",
+            "em",
+            "conhecê-lo"
+          ],
+          "translation": [
+            "prazer",
+            "em",
+            "conhecê-lo"
+          ]
         },
         {
           "phrase": "Bo man, Giova'!",
           "pronunciation": "bo man, giovà!",
-          "tokens": ["olá", "Giovanni", "bom", "mão", "mano", "mãe"],
-          "rightAnswer": ["olá", "Giovanni"],
-          "translation": ["olá", "Giovanni"]
+          "tokens": [
+            "olá",
+            "Giovanni",
+            "bom",
+            "mão",
+            "mano",
+            "mãe"
+          ],
+          "rightAnswer": [
+            "olá",
+            "Giovanni"
+          ],
+          "translation": [
+            "olá",
+            "Giovanni"
+          ]
         }
       ],
       "enabled": true
@@ -359,6 +498,66 @@
       "icon": "",
       "exercises": [],
       "enabled": false
+    }
+  ],
+  "crvenagorski": [
+    {
+      "title": "Saudações",
+      "icon": "",
+      "exercises": [
+        {
+          "phrase": "Dobri dan, kako si?",
+          "pronunciation": "Dobri dan, kako si?",
+          "tokens": [],
+          "rightAnswer": [],
+          "translation": ["bom", "dia", "como", "(você) está"]
+        },
+        {
+          "phrase": "Ja sam dobro, a ti?",
+          "pronunciation": "ja sam dobro, a ti?",
+          "tokens": [],
+          "rightAnswer": [],
+          "translation": ["bom", "dia", "como", "(você) está"]
+        },
+        {
+          "phrase": "Dobro nesam",
+          "pronunciation": "dobro nesam",
+          "tokens": [],
+          "rightAnswer": [],
+          "translation": ["bom", "dia", "como", "(você) está"]
+        }
+      ],
+      "enabled": true
+    }
+  ],
+  "shatan":[
+    {
+      "title": "Saudações",
+      "icon": "",
+      "exercises": [
+        {
+          "phrase": "אנא אזור שתן לשן",
+          "pronunciation": "אנא אזור שתן לשן",
+          "tokens": [],
+          "rightAnswer": [],
+          "translation": []
+        },
+        {
+          "phrase": "",
+          "pronunciation": "",
+          "tokens": [],
+          "rightAnswer": [],
+          "translation": []
+        },
+        {
+          "phrase": "",
+          "pronunciation": "",
+          "tokens": [],
+          "rightAnswer": [],
+          "translation": []
+        }
+      ],
+      "enabled": true
     }
   ]
 }

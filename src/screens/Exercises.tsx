@@ -1,6 +1,10 @@
 import { useEffect, useState } from 'react';
-import { useLocation } from 'react-router';
+import { useLocation, useNavigate, useNavigation } from 'react-router';
 import { HeaderComponent } from '../components/Header.component';
+import useDrewlingoStore from '../modules/store';
+import { TCourse } from '../types/types';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 export default function ExercisesScreen(
   data: {
@@ -18,9 +22,12 @@ export default function ExercisesScreen(
   const [answer, setAnswer] = useState([]);
   const [rightAnswer, setRightAnswer] = useState([]);
   const [translations, setTranslations] = useState([]);
-  const [lives, setLives] = useState(3);
 
-  const shuffleArray = (array) => {
+  const navigate = useNavigate();
+
+  const { data: drewlingo, updateData } = useDrewlingoStore();
+
+  /*const shuffleArray = (array) => {
     const shuffledArray = [...array];
 
     for (let i = shuffledArray.length - 1; i > 0; i--) {
@@ -31,27 +38,78 @@ export default function ExercisesScreen(
     }
 
     return shuffledArray;
-  };
+  };*/
 
   const exercises = useLocation().state;
+
+  const getVoices = () => {
+
+    if (drewlingo.course === "regentish" as TCourse) return 'it-IT';
+    if (drewlingo.course === "shatan" as TCourse) return 'he-IL';
+    if (drewlingo.course === "crvenagorski" as TCourse) {
+      return 'bs-BA';
+    };
+
+    return 'en-US';
+  }
 
   const handleSpeech = () => {
     const utterance = new SpeechSynthesisUtterance(
       pronunciation ? pronunciation : ''
     );
-    utterance.lang = 'it-IT';
+    utterance.lang = getVoices();
 
     speechSynthesis.speak(utterance);
   };
 
   const checkAnswer = () => {
     if (answer!.join().toLowerCase() === rightAnswer!.join().toLowerCase()) {
-      setProgress(progress + 1);
-      setAnswer([]);
+      if (progress < exercises!.length - 1) {
+        setProgress(progress + 1);
+        setAnswer([]);
+        updateData({
+          ...drewlingo,
+          points: drewlingo.points + parseInt(String(Math.random() * 20))
+        })
+        toast("Resposta correta!", {
+          type: "success",
+          position: "bottom-center",
+          theme: "colored"
+        })
+      } else {
+        navigate('/');
+        toast("Parabéns!", {
+          type: "success",
+          position: "bottom-center",
+          theme: "colored"
+        })
+      }
     } else {
-      window.alert('Resposta incorreta');
+      toast("Resposta incorreta!", {
+        type: "error",
+        position: "bottom-center",
+        theme: "colored"
+      })
+
+      updateData({
+        ...drewlingo,
+        lives: drewlingo.lives - 1,
+        progress: drewlingo.progress + 1
+      });
     }
   };
+
+  useEffect(()=>{
+    if(drewlingo.lives <= 0){
+      navigate('/');
+
+      toast("Suas vidas acabaram, tente novamente!", {
+        type: "error",
+        position: "bottom-center",
+        theme: "colored"
+      })
+    }
+  }, [drewlingo.lives])
 
   useEffect(() => {
     const exercise: {
@@ -63,7 +121,7 @@ export default function ExercisesScreen(
     } = exercises[progress];
 
     setPronunciation(exercise?.pronunciation);
-    setTokens(shuffleArray(exercise?.tokens));
+    setTokens(exercise?.tokens);
     setSentence(exercise?.phrase);
     setRightAnswer(exercise?.rightAnswer);
     setTranslations(exercise?.translation);
@@ -71,84 +129,87 @@ export default function ExercisesScreen(
 
   return (
     <div>
-      <HeaderComponent/>
-    <div className="container" style={{
-      marginTop: "100px"
-    }}>
-      <div style={{
-        display: "flex",
-        justifyContent: "space-around",
-        gap: "8px"
+      <ToastContainer />
+      <HeaderComponent />
+      <div className="container" style={{
+        marginTop: "100px"
       }}>
-      <progress
-        className="progress bar"
-        style={{
-          width: "50%"
-        }}
-        value={progress}
-        max={exercises.length}
-      ></progress>
-      <div><i className='bi bi-heart-fill'></i>3</div>
-      </div>
-      <br />
-      <button
-        className="btn btn-dark background-secondary"
-        onClick={() => handleSpeech()}
-      >
-        <i className="bi bi-volume-up"></i>
-      </button>
-      <div
-        style={{
-          display: 'flex',
-          gap: '8px',
-          flexWrap: 'wrap',
-        }}
-      >
-        {sentence !== '' &&
-          sentence?.split(' ')!.map((word, index) => {
-            return (
-              <h4
-                popover-bottom={translations[index]}
-                style={{
-                  margin: '0',
-                }}
-              >
-                {word}
-              </h4>
-            );
-          })}
-      </div>
-      <div
-        style={{
-          display: 'flex',
-          gap: '5px',
-        }}
-      >
-        {answer.map((item) => (
-          <p>{item}</p>
-        ))}
-      </div>
-      <br />
-      <>
-        {tokens?.length > 0 &&
-          tokens.map((token) => (
-            <button onClick={() => setAnswer([...answer, token])}>
-              {token}
-            </button>
+        <div style={{
+          display: "flex",
+          justifyContent: "space-around",
+          gap: "8px"
+        }}>
+          <progress
+            className="progress bar"
+            style={{
+              width: "50%"
+            }}
+            value={progress}
+            max={exercises.length}
+          ></progress>
+          <div className="text text-danger"><i className='bi bi-heart-fill' style={{
+            marginRight: "5px"
+          }}></i>{drewlingo.lives}</div>
+        </div>
+        <br />
+        <button
+          className="btn btn-dark background-secondary"
+          onClick={() => handleSpeech()}
+        >
+          <i className="bi bi-volume-up"></i>
+        </button>
+        <div
+          style={{
+            display: 'flex',
+            gap: '8px',
+            flexWrap: 'wrap',
+          }}
+        >
+          {sentence !== '' &&
+            sentence?.split(' ')!.map((word, index) => {
+              return (
+                <h4
+                  popover-bottom={translations[index]}
+                  style={{
+                    margin: '0',
+                  }}
+                >
+                  {word}
+                </h4>
+              );
+            })}
+        </div>
+        <div
+          style={{
+            display: 'flex',
+            gap: '5px',
+          }}
+        >
+          {answer.map((item) => (
+            <p>{item}</p>
           ))}
-      </>
-      <br />
-      <button style={{
-        marginTop: "24px"
-      }} className="btn btn-success" onClick={() => checkAnswer()}>
-        Próximo
-      </button>
-      <button style={{
-        marginTop: "24px"
-      }} className="btn btn-danger" onClick={() => setAnswer([])}>
-        Recomeçar
-      </button>
-    </div>
+        </div>
+        <br />
+        <>
+          {tokens?.length > 0 &&
+            tokens.map((token) => (
+              <button onClick={() => setAnswer([...answer, token])}>
+                {token}
+              </button>
+            ))}
+        </>
+        <br />
+        <button style={{
+          marginTop: "24px"
+        }} className="btn btn-success" onClick={() => checkAnswer()}>
+          Próximo
+        </button>
+        <button style={{
+          marginTop: "24px"
+        }} className="btn btn-danger" onClick={() => setAnswer([])}>
+          Recomeçar
+        </button>
+      </div>
     </div>
   );
 }

@@ -1,6 +1,10 @@
 import { useNavigate } from "react-router"
+import useDrewlingoStore from "../modules/store";
+import { TCourse } from "../types/types";
 
 export const HeaderComponent = () => {
+    const {data, updateData} = useDrewlingoStore();
+    
     const navigate = useNavigate();
 
     return (
@@ -32,15 +36,20 @@ export const HeaderComponent = () => {
                         }}>
                             <li>
                                 <div className="form-group dark">
-                                    <select id="paperSelects1">
-                                        <option value="1">Regentino</option>
-                                        <option value="2">Monterrubrino</option>
-                                        <option value="3">Shatan Lishon</option>
+                                    <select id="paperSelects1" value={data.course} onChange={(ev) => {
+                                        updateData({
+                                            ...data,
+                                            course: ev.target.value as unknown as TCourse
+                                        })
+                                    }}>
+                                        <option value="regentish">Regentino</option>
+                                        <option value="crvenagorski">Monterrubrino</option>
+                                        <option value="shatan">Shatan Lishon</option>
                                     </select>
                                 </div>
                             </li>
-                            <li><i className="bi bi-trophy-fill text-danger"></i>3</li>
-                            <li><i className="bi bi-heart-fill text-danger"></i>3</li>
+                            <li><i className="bi bi-trophy-fill text-danger"></i>{data!.points}</li>
+                            <li><i className="bi bi-heart-fill text-danger"></i>{data!.lives}</li>
                         </ul>
                     </div>
                 </div>

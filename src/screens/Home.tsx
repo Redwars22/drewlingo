@@ -1,8 +1,13 @@
 import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router';
 import { HeaderComponent } from '../components/Header.component';
+import useDrewlingoStore from '../modules/store';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 export function HomeScreen() {
+  const {data, updateData} = useDrewlingoStore();
+
   const [lessons, setLessons] = useState<
     {
       title: string;
@@ -37,14 +42,26 @@ export function HomeScreen() {
 
   useEffect(() => {
     async function getLessons() {
-      const data = await fetch('/lessons.json');
-      const res = await data.json();
+      const courseData = await fetch('/lessons.json');
+      const res = await courseData.json();
 
-      setLessons(res!.regentish);
+      if(data.lives == 0)
+        updateData({
+          ...data,
+          lives: 3
+        })
+
+      setLessons(res[data.course]);
     }
 
     getLessons();
-  }, []);
+  }, [data.course]);
+
+  const getColor = ():string => {
+    const colors = ["success", "danger", "info", "primary", "secundary", "warning"]
+
+    return colors[Math.floor(Math.random() * colors.length)]
+  }
 
   const LessonsArea = () => {
     return (
@@ -53,11 +70,11 @@ export function HomeScreen() {
         flexDirection: "column",
         marginTop: "100px"
       }}>
-        {lessons.map((lesson, index) =>
+        {lessons && lessons!.map((lesson, index) =>
           (
             <button
-              className="btn-success"
-              disabled={!lesson.enabled}
+              className={`btn-${getColor()}`}
+              disabled={!lesson.enabled || data.points < index * 50}
               style={{
                 width: "150px",
                 height: "150px",
@@ -80,6 +97,7 @@ export function HomeScreen() {
 
   return (
     <>
+    <ToastContainer/>
       <HeaderComponent />
       <LessonsArea />
     </>

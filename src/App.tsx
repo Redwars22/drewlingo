@@ -4,9 +4,11 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { HomeScreen } from './screens/Home';
 import Exercises from './screens/Exercises';
 import ExercisesScreen from './screens/Exercises';
+import { ToastContainer } from 'react-toastify';
 
 export default function App() {
-  return (
+  return (<>
+
     <Router>
       <Routes>
         <Route path="/" Component={() => <HomeScreen />} />
@@ -23,6 +25,6 @@ export default function App() {
           ) => <ExercisesScreen {...props} />}
         />
       </Routes>
-    </Router>
+    </Router></>
   );
 }
