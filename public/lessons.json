@@ -5,246 +5,150 @@
       "icon": "person-raised-hand",
       "exercises": [
         {
-          "phrase": "Servus, tutt'apostu?",
-          "pronunciation": "servus, tuttapostu?",
+          "phrase": "Servus",
+          "pronunciation": "servus",
           "tokens": [
-            "olá",
-            "tudo",
-            "bem",
-            "menino",
-            "o",
-            "a",
-            "noventa"
+            "dia",
+            "bom",
+            "medo",
+            "mal",
+            "olá"
           ],
           "rightAnswer": [
-            "olá",
-            "tudo",
-            "bem"
+            "olá"
           ],
-          "translation": [
-            "olá",
-            "tudo bem"
-          ]
+          "translation": []
         },
         {
-          "phrase": "Bonanotte, ronnu Giovanni",
-          "pronunciation": "bonanotte, ronnu giovanni",
+          "phrase": "Bonanote",
+          "pronunciation": "bonanote",
           "tokens": [
-            "boa",
-            "noite",
-            "senhor",
-            "Giovanni",
-            "senhora",
-            "bom",
-            "dia"
-          ],
-          "rightAnswer": [
-            "boa",
-            "noite",
-            "senhor",
-            "Giovanni"
-          ],
-          "translation": [
             "boa noite",
-            "senhor",
-            ""
-          ]
-        },
-        {
-          "phrase": "Bona Jornata, ronna Maria",
-          "pronunciation": "bonaiornata, ronna Maria",
-          "tokens": [
-            "bom",
-            "dia",
-            "senhora",
-            "Maria",
+            "bom dia",
+            "péssimo",
             "noite",
-            "boa"
+            "adeus"
           ],
           "rightAnswer": [
-            "bom",
+            "boa noite"
+          ],
+          "translation": []
+        },
+        {
+          "phrase": "Bona Jornata",
+          "pronunciation": "bonayornata",
+          "tokens": [
+            "adeus",
             "dia",
+            "bom dia",
+            "péssimo",
+            "medo"
+          ],
+          "rightAnswer": [
+            "bom dia"
+          ],
+          "translation": []
+        },
+        {
+          "phrase": "Bo man",
+          "pronunciation": "bo man",
+          "tokens": [
+            "adeus",
+            "péssimo",
+            "noite",
+            "olá",
+            "boa noite"
+          ],
+          "rightAnswer": [
+            "olá"
+          ],
+          "translation": []
+        },
+        {
+          "phrase": "rona",
+          "pronunciation": "rona",
+          "tokens": [
+            "senhor",
+            "noite",
+            "medo",
             "senhora",
-            "maria"
-          ],
-          "translation": [
-            "bom",
-            "dia",
-            "dona",
-            ""
-          ]
-        },
-        {
-          "phrase": "Bo man, tutt'apostu?",
-          "pronunciation": "boman, tuttapostu?",
-          "tokens": [
-            "olá",
-            "tudo",
-            "bem",
-            "mês",
-            "bom",
-            "dia"
+            "polícia"
           ],
           "rightAnswer": [
-            "olá",
-            "tudo",
-            "bem"
+            "senhora"
           ],
-          "translation": [
-            "olá (informal)",
-            "olá (informal)",
-            "tudo bem"
-          ]
+          "translation": []
         },
         {
-          "phrase": "Iu so a ronna Maria",
-          "pronunciation": "iu so a ronna maria",
+          "phrase": "Tuterbo?",
+          "pronunciation": "tuterbo?",
           "tokens": [
-            "eu",
-            "sou",
-            "a",
+            "tudo bem?",
+            "polícia",
+            "senhor",
+            "mal",
+            "bem"
+          ],
+          "rightAnswer": [
+            "tudo bem?"
+          ],
+          "translation": []
+        },
+        {
+          "phrase": "ronu",
+          "pronunciation": "ron",
+          "tokens": [
+            "senhor",
             "senhora",
-            "Maria",
-            "Ezekiel",
-            "floresta"
+            "Deus",
+            "adeus",
+            "ronco"
           ],
           "rightAnswer": [
-            "eu",
-            "sou",
-            "a",
-            "senhora",
-            "Maria"
+            "senhora"
           ],
-          "translation": [
-            "eu",
-            "sou, são",
-            "a, para",
-            "senhora, dona",
-            ""
-          ]
+          "translation": []
         },
         {
-          "phrase": "O nomme mi l'è Ezekiel",
-          "pronunciation": "o nommemi lè Ezzechiel",
+          "phrase": "bié",
+          "pronunciation": "biê",
           "tokens": [
-            "o",
-            "meu",
-            "nome",
-            "é",
-            "Ezekiel",
-            "são",
-            "chamam",
-            "dia"
-          ],
-          "rightAnswer": [
-            "o",
-            "meu",
-            "nome",
-            "é",
-            "Ezekiel"
-          ],
-          "translation": [
-            "o",
-            "nome",
-            "meu, minha",
-            "é",
-            "Ezekiel"
-          ]
-        },
-        {
-          "phrase": "I me vadu bbié assé",
-          "pronunciation": "i me vàdu bbié assé",
-          "tokens": [
-            "eu",
-            "estou",
-            "muito",
-            "bem",
+            "mal",
             "bom",
-            "vou",
-            "tu"
+            "bem",
+            "saudação",
+            "salvar"
           ],
           "rightAnswer": [
-            "eu",
-            "estou",
-            "muito",
             "bem"
           ],
-          "translation": [
-            "eu",
-            "me, mim",
-            "vou",
-            "bem",
-            "bastante, muito"
-          ]
+          "translation": []
         },
         {
-          "phrase": "I nun me vadu bbié",
-          "pronunciation": "i nunme vadu bbié",
+          "phrase": "catiu",
+          "pronunciation": "catiu",
           "tokens": [
-            "eu",
-            "não",
-            "estou",
-            "bem",
-            "bom",
-            "vou",
-            "ele"
+            "mal",
+            "salvar",
+            "olá",
+            "bom dia",
+            "boa noite"
           ],
           "rightAnswer": [
-            "eu",
-            "não",
-            "estou",
-            "bem"
+            "mal"
           ],
-          "translation": [
-            "eu",
-            "não",
-            "me, mim",
-            "vou",
-            "bem"
-          ]
+          "translation": []
         },
         {
-          "phrase": "Cuntentu e cunuscetti",
-          "pronunciation": "cundendu eccunuscetti",
+          "phrase": "Se ni verá aropu",
+          "pronunciation": "se niverá aropu",
           "tokens": [
-            "prazer",
-            "em",
-            "conhecê-lo",
-            "e",
-            "de",
-            "feliz",
-            "conhecer-me"
+            "até logo", "adeus", "medo", "boa noite", "bom dia"
           ],
           "rightAnswer": [
-            "prazer",
-            "em",
-            "conhecê-lo"
+            "até logo"
           ],
-          "translation": [
-            "prazer",
-            "em",
-            "conhecê-lo"
-          ]
-        },
-        {
-          "phrase": "Bo man, Giova'!",
-          "pronunciation": "bo man, giovà!",
-          "tokens": [
-            "olá",
-            "Giovanni",
-            "bom",
-            "mão",
-            "mano",
-            "mãe"
-          ],
-          "rightAnswer": [
-            "olá",
-            "Giovanni"
-          ],
-          "translation": [
-            "olá",
-            "Giovanni"
-          ]
+          "translation": []
         }
       ],
       "enabled": true
@@ -254,73 +158,105 @@
       "icon": "diagram-2-fill",
       "exercises": [
         {
-          "phrase": "Matre, patre e ffratellu",
-          "pronunciation": "madre, padre, effradell",
-          "tokens": [],
-          "rightAnswer": [],
+          "phrase": "Matre",
+          "pronunciation": "matre",
+          "tokens": [
+            "mal", "mãe", "medo", "mão", "noite"
+          ],
+          "rightAnswer": ["mãe"],
           "translation": []
         },
         {
-          "phrase": "So o fiju chiù joane ra familia",
-          "pronunciation": "soo fiu chiù ioane rafamilia",
-          "tokens": [],
-          "rightAnswer": [],
+          "phrase": "Fiju",
+          "pronunciation": "fiyu",
+          "tokens": [
+            "bem", "dia", "medo", "filho", "mão"
+          ],
+          "rightAnswer": ["filho"],
           "translation": []
         },
         {
-          "phrase": "Ezekiel l'è o fiju chiù viecru ra familia",
-          "pronunciation": "ezzekiel lè o fiu chiù viecru rafamilia",
-          "tokens": [],
-          "rightAnswer": [],
+          "phrase": "Patre",
+          "pronunciation": "patre",
+          "tokens": [
+            "pai", "padre", "dia", "filho", "irmão"
+          ],
+          "rightAnswer": [
+            "pai"
+          ],
           "translation": []
         },
         {
-          "phrase": "A sorellame ze chiama Andrea",
-          "pronunciation": "a sorellami zi chiama andrea",
-          "tokens": [],
-          "rightAnswer": [],
+          "phrase": "Sorela",
+          "pronunciation": "suréla",
+          "tokens": [
+            "irmã", "adeus", "boa noite", "calor", "chuva"
+          ],
+          "rightAnswer": [
+            "irmã"
+          ],
           "translation": []
         },
         {
-          "phrase": "O fratellume ze chiama Ezekiel",
-          "pronunciation": "o fradellumi zi chiama ezzekiel",
-          "tokens": [],
-          "rightAnswer": [],
+          "phrase": "Fratel",
+          "pronunciation": "fradél",
+          "tokens": ["irmão", "calor", "Deus", "céu", "criança"],
+          "rightAnswer": ["irmão"],
           "translation": []
         },
         {
-          "phrase": "A matreme le parra ngrese",
-          "pronunciation": "a madremi li parra ngresi",
-          "tokens": [],
-          "rightAnswer": [],
+          "phrase": "Familia",
+          "pronunciation": "familha",
+          "tokens": [
+           "chuva", "criança", "céu", "família", "Deus"
+          ],
+          "rightAnswer": [
+            "família"
+          ],
           "translation": []
         },
         {
-          "phrase": "O patreme nun le parra regentinu",
-          "pronunciation": "o padremi nunli parra regendin",
-          "tokens": [],
-          "rightAnswer": [],
+          "phrase": "Regentinu",
+          "pronunciation": "regentin",
+          "tokens": [
+            "italiano", "riograndês", "inglês", "britânico", "regentino"
+          ],
+          "rightAnswer": [
+            "regentino"
+          ],
           "translation": []
         },
         {
-          "phrase": "O patrete le parra regentinu e ngrese?",
-          "pronunciation": "o padredi li parra regendin engresi?",
-          "tokens": [],
-          "rightAnswer": [],
+          "phrase": "Ingrese",
+          "pronunciation": "ingrêz",
+          "tokens": [
+            "regentino", "inglês", "riograndês", "britânico", "italiano"
+          ],
+          "rightAnswer": [
+            "inglês"
+          ],
           "translation": []
         },
         {
-          "phrase": "Nun tiengu matre né patre",
-          "pronunciation": "nun tiengu matre né ppatre",
-          "tokens": [],
-          "rightAnswer": [],
+          "phrase": "Germane",
+          "pronunciation": "germane",
+          "tokens": [
+            "calor", "crianças", "céu", "ronco", "irmãos"
+          ],
+          "rightAnswer": [
+            "irmãos"
+          ],
           "translation": []
         },
         {
-          "phrase": "Chi è a matrete?",
-          "pronunciation": "chiè a madredi?",
-          "tokens": [],
-          "rightAnswer": [],
+          "phrase": "Criatura",
+          "pronunciation": "criatura",
+          "tokens": [
+            "irmão", "criatura", "fera", "criança", "animal"
+          ],
+          "rightAnswer": [
+            "criança"
+          ],
           "translation": []
         }
       ],
@@ -331,6 +267,162 @@
       "icon": "",
       "exercises": [
         {
+          "phrase": "Nuol",
+          "pronunciation": "nuol",
+          "tokens": ["céu", "calor", "inverno", "verão", "nuvem"],
+          "rightAnswer": ["nuvem"],
+          "translation": []
+        },
+        {
+          "phrase": "Sol",
+          "pronunciation": "sol",
+          "tokens": ["sol", "verão", "inverno", "nuvem", "temporada"],
+          "rightAnswer": ["sol"],
+          "translation": []
+        },
+        {
+          "phrase": "Luna",
+          "pronunciation": "luna",
+          "tokens": ["inverno", "lua", "verão", "sol", "noite"],
+          "rightAnswer": ["lua"],
+          "translation": []
+        },
+        {
+          "phrase": "Turmienta",
+          "pronunciation": "turmienta",
+          "tokens": [
+            "tornado", "vento", "tempestade", "verão", "teto"
+          ],
+          "rightAnswer": ["tempestade"],
+          "translation": []
+        },
+        {
+          "phrase": "Tempestá",
+          "pronunciation": "tempestá",
+          "tokens": ["tornado", "tempestade", "tempero", "temporal", "tesouro"],
+          "rightAnswer": ["tempestade"],
+          "translation": []
+        },
+        {
+          "phrase": "Cardu",
+          "pronunciation": "cardu",
+          "tokens": ["caldo", "casa", "calor", "carona", "cheio"],
+          "rightAnswer": ["calor"],
+          "translation": []
+        },
+        {
+          "phrase": "Frigir",
+          "pronunciation": "frigir",
+          "tokens": ["frigideira", "calor", "frio", "adeus", "britânico"],
+          "rightAnswer": ["frio"],
+          "translation": []
+        },
+        {
+          "phrase": "Chiova",
+          "pronunciation": "quiova",
+          "tokens": ["floresta", "chama", "chuva", "chance", "chegar"],
+          "rightAnswer": ["chuva"],
+          "translation": []
+        },
+        {
+          "phrase": "Cel",
+          "pronunciation": "cél",
+          "tokens": ["céu", "celular", "cilhos", "floresta", "sol"],
+          "rightAnswer": ["céu"],
+          "translation": []
+        },
+        {
+          "phrase": "Frume",
+          "pronunciation": "frum",
+          "tokens": ["feio", "frio", "rio", "fluir", "França"],
+          "rightAnswer": ["rio"],
+          "translation": []
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "title": "Preferências",
+      "icon": "",
+      "exercises": [
+        {
+          "phrase": "Gabá",
+          "pronunciation": "",
+          "tokens": [],
+          "rightAnswer": [],
+          "translation": []
+        },
+        {
+          "phrase": "Detestá",
+          "pronunciation": "",
+          "tokens": [],
+          "rightAnswer": [],
+          "translation": []
+        },
+        {
+          "phrase": "Amor",
+          "pronunciation": "",
+          "tokens": [],
+          "rightAnswer": [],
+          "translation": []
+        },
+        {
+          "phrase": "Faoritu",
+          "pronunciation": "",
+          "tokens": [],
+          "rightAnswer": [],
+          "translation": []
+        },
+        {
+          "phrase": "Perfetu",
+          "pronunciation": "",
+          "tokens": [],
+          "rightAnswer": [],
+          "translation": []
+        },
+        {
+          "phrase": "Increribel",
+          "pronunciation": "",
+          "tokens": [],
+          "rightAnswer": [],
+          "translation": []
+        },
+        {
+          "phrase": "Mervejosu",
+          "pronunciation": "",
+          "tokens": [],
+          "rightAnswer": [],
+          "translation": []
+        },
+        {
+          "phrase": "Amirabel",
+          "pronunciation": "",
+          "tokens": [],
+          "rightAnswer": [],
+          "translation": []
+        },
+        {
+          "phrase": "Pessimu",
+          "pronunciation": "",
+          "tokens": [],
+          "rightAnswer": [],
+          "translation": []
+        },
+        {
+          "phrase": "Canuciutu",
+          "pronunciation": "",
+          "tokens": [],
+          "rightAnswer": [],
+          "translation": []
+        }
+      ],
+      "enabled": false
+    },
+    {
+      "title": "Comida e Bebida",
+      "icon": "",
+      "exercises": [
+        {
           "phrase": "",
           "pronunciation": "",
           "tokens": [],
@@ -401,18 +493,6 @@
           "translation": []
         }
       ],
-      "enabled": false
-    },
-    {
-      "title": "Preferências",
-      "icon": "",
-      "exercises": [],
-      "enabled": false
-    },
-    {
-      "title": "Comida e Bebida",
-      "icon": "",
-      "exercises": [],
       "enabled": false
     },
     {
@@ -510,27 +590,42 @@
           "pronunciation": "Dobri dan, kako si?",
           "tokens": [],
           "rightAnswer": [],
-          "translation": ["bom", "dia", "como", "(você) está"]
+          "translation": [
+            "bom",
+            "dia",
+            "como",
+            "(você) está"
+          ]
         },
         {
           "phrase": "Ja sam dobro, a ti?",
           "pronunciation": "ja sam dobro, a ti?",
           "tokens": [],
           "rightAnswer": [],
-          "translation": ["bom", "dia", "como", "(você) está"]
+          "translation": [
+            "bom",
+            "dia",
+            "como",
+            "(você) está"
+          ]
         },
         {
           "phrase": "Dobro nesam",
           "pronunciation": "dobro nesam",
           "tokens": [],
           "rightAnswer": [],
-          "translation": ["bom", "dia", "como", "(você) está"]
+          "translation": [
+            "bom",
+            "dia",
+            "como",
+            "(você) está"
+          ]
         }
       ],
       "enabled": true
     }
   ],
-  "shatan":[
+  "shatan": [
     {
       "title": "Saudações",
       "icon": "",

@@ -44,7 +44,7 @@ export default function ExercisesScreen(
 
   const getVoices = () => {
 
-    if (drewlingo.course === "regentish" as TCourse) return 'it-IT';
+    if (drewlingo.course === "regentish" as TCourse) return 'pt-BR';
     if (drewlingo.course === "shatan" as TCourse) return 'he-IL';
     if (drewlingo.course === "crvenagorski" as TCourse) {
       return 'bs-BA';
