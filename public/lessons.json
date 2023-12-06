@@ -143,7 +143,11 @@
           "phrase": "Se ni verá aropu",
           "pronunciation": "se niverá aropu",
           "tokens": [
-            "até logo", "adeus", "medo", "boa noite", "bom dia"
+            "até logo",
+            "adeus",
+            "medo",
+            "boa noite",
+            "bom dia"
           ],
           "rightAnswer": [
             "até logo"
@@ -161,25 +165,41 @@
           "phrase": "Matre",
           "pronunciation": "matre",
           "tokens": [
-            "mal", "mãe", "medo", "mão", "noite"
+            "mal",
+            "mãe",
+            "medo",
+            "mão",
+            "noite"
           ],
-          "rightAnswer": ["mãe"],
+          "rightAnswer": [
+            "mãe"
+          ],
           "translation": []
         },
         {
           "phrase": "Fiju",
           "pronunciation": "fiyu",
           "tokens": [
-            "bem", "dia", "medo", "filho", "mão"
+            "bem",
+            "dia",
+            "medo",
+            "filho",
+            "mão"
           ],
-          "rightAnswer": ["filho"],
+          "rightAnswer": [
+            "filho"
+          ],
           "translation": []
         },
         {
           "phrase": "Patre",
           "pronunciation": "patre",
           "tokens": [
-            "pai", "padre", "dia", "filho", "irmão"
+            "pai",
+            "padre",
+            "dia",
+            "filho",
+            "irmão"
           ],
           "rightAnswer": [
             "pai"
@@ -190,7 +210,11 @@
           "phrase": "Sorela",
           "pronunciation": "suréla",
           "tokens": [
-            "irmã", "adeus", "boa noite", "calor", "chuva"
+            "irmã",
+            "adeus",
+            "boa noite",
+            "calor",
+            "chuva"
           ],
           "rightAnswer": [
             "irmã"
@@ -200,15 +224,27 @@
         {
           "phrase": "Fratel",
           "pronunciation": "fradél",
-          "tokens": ["irmão", "calor", "Deus", "céu", "criança"],
-          "rightAnswer": ["irmão"],
+          "tokens": [
+            "irmão",
+            "calor",
+            "Deus",
+            "céu",
+            "criança"
+          ],
+          "rightAnswer": [
+            "irmão"
+          ],
           "translation": []
         },
         {
           "phrase": "Familia",
           "pronunciation": "familha",
           "tokens": [
-           "chuva", "criança", "céu", "família", "Deus"
+            "chuva",
+            "criança",
+            "céu",
+            "família",
+            "Deus"
           ],
           "rightAnswer": [
             "família"
@@ -219,7 +255,11 @@
           "phrase": "Regentinu",
           "pronunciation": "regentin",
           "tokens": [
-            "italiano", "riograndês", "inglês", "britânico", "regentino"
+            "italiano",
+            "riograndês",
+            "inglês",
+            "britânico",
+            "regentino"
           ],
           "rightAnswer": [
             "regentino"
@@ -230,7 +270,11 @@
           "phrase": "Ingrese",
           "pronunciation": "ingrêz",
           "tokens": [
-            "regentino", "inglês", "riograndês", "britânico", "italiano"
+            "regentino",
+            "inglês",
+            "riograndês",
+            "britânico",
+            "italiano"
           ],
           "rightAnswer": [
             "inglês"
@@ -241,7 +285,11 @@
           "phrase": "Germane",
           "pronunciation": "germane",
           "tokens": [
-            "calor", "crianças", "céu", "ronco", "irmãos"
+            "calor",
+            "crianças",
+            "céu",
+            "ronco",
+            "irmãos"
           ],
           "rightAnswer": [
             "irmãos"
@@ -252,7 +300,11 @@
           "phrase": "Criatura",
           "pronunciation": "criatura",
           "tokens": [
-            "irmão", "criatura", "fera", "criança", "animal"
+            "irmão",
+            "criatura",
+            "fera",
+            "criança",
+            "animal"
           ],
           "rightAnswer": [
             "criança"
@@ -269,73 +321,151 @@
         {
           "phrase": "Nuol",
           "pronunciation": "nuol",
-          "tokens": ["céu", "calor", "inverno", "verão", "nuvem"],
-          "rightAnswer": ["nuvem"],
+          "tokens": [
+            "céu",
+            "calor",
+            "inverno",
+            "verão",
+            "nuvem"
+          ],
+          "rightAnswer": [
+            "nuvem"
+          ],
           "translation": []
         },
         {
           "phrase": "Sol",
           "pronunciation": "sol",
-          "tokens": ["sol", "verão", "inverno", "nuvem", "temporada"],
-          "rightAnswer": ["sol"],
+          "tokens": [
+            "sol",
+            "verão",
+            "inverno",
+            "nuvem",
+            "temporada"
+          ],
+          "rightAnswer": [
+            "sol"
+          ],
           "translation": []
         },
         {
           "phrase": "Luna",
           "pronunciation": "luna",
-          "tokens": ["inverno", "lua", "verão", "sol", "noite"],
-          "rightAnswer": ["lua"],
+          "tokens": [
+            "inverno",
+            "lua",
+            "verão",
+            "sol",
+            "noite"
+          ],
+          "rightAnswer": [
+            "lua"
+          ],
           "translation": []
         },
         {
           "phrase": "Turmienta",
           "pronunciation": "turmienta",
           "tokens": [
-            "tornado", "vento", "tempestade", "verão", "teto"
+            "tornado",
+            "vento",
+            "tempestade",
+            "verão",
+            "teto"
           ],
-          "rightAnswer": ["tempestade"],
+          "rightAnswer": [
+            "tempestade"
+          ],
           "translation": []
         },
         {
           "phrase": "Tempestá",
           "pronunciation": "tempestá",
-          "tokens": ["tornado", "tempestade", "tempero", "temporal", "tesouro"],
-          "rightAnswer": ["tempestade"],
+          "tokens": [
+            "tornado",
+            "tempestade",
+            "tempero",
+            "temporal",
+            "tesouro"
+          ],
+          "rightAnswer": [
+            "tempestade"
+          ],
           "translation": []
         },
         {
           "phrase": "Cardu",
           "pronunciation": "cardu",
-          "tokens": ["caldo", "casa", "calor", "carona", "cheio"],
-          "rightAnswer": ["calor"],
+          "tokens": [
+            "caldo",
+            "casa",
+            "calor",
+            "carona",
+            "cheio"
+          ],
+          "rightAnswer": [
+            "calor"
+          ],
           "translation": []
         },
         {
           "phrase": "Frigir",
           "pronunciation": "frigir",
-          "tokens": ["frigideira", "calor", "frio", "adeus", "britânico"],
-          "rightAnswer": ["frio"],
+          "tokens": [
+            "frigideira",
+            "calor",
+            "frio",
+            "adeus",
+            "britânico"
+          ],
+          "rightAnswer": [
+            "frio"
+          ],
           "translation": []
         },
         {
           "phrase": "Chiova",
           "pronunciation": "quiova",
-          "tokens": ["floresta", "chama", "chuva", "chance", "chegar"],
-          "rightAnswer": ["chuva"],
+          "tokens": [
+            "floresta",
+            "chama",
+            "chuva",
+            "chance",
+            "chegar"
+          ],
+          "rightAnswer": [
+            "chuva"
+          ],
           "translation": []
         },
         {
           "phrase": "Cel",
           "pronunciation": "cél",
-          "tokens": ["céu", "celular", "cilhos", "floresta", "sol"],
-          "rightAnswer": ["céu"],
+          "tokens": [
+            "céu",
+            "celular",
+            "cilhos",
+            "floresta",
+            "sol"
+          ],
+          "rightAnswer": [
+            "céu"
+          ],
           "translation": []
         },
         {
           "phrase": "Frume",
           "pronunciation": "frum",
-          "tokens": ["feio", "frio", "rio", "fluir", "França"],
-          "rightAnswer": ["rio"],
+          "tokens": [
+            "feio",
+            "frio",
+            "rio",
+            "fluir",
+            "França"
+          ],
+          "rightAnswer": [
+            "rio"
+          ],
           "translation": []
         }
       ],
@@ -423,6 +553,240 @@
       "icon": "",
       "exercises": [
         {
+          "phrase": "Vin",
+          "pronunciation": "vin",
+          "tokens": [
+            "café",
+            "vinho",
+            "leite",
+            "açúcar",
+            "animal"
+          ],
+          "rightAnswer": [
+            "vinho"
+          ],
+          "translation": []
+        },
+        {
+          "phrase": "Café",
+          "pronunciation": "café",
+          "tokens": [
+            "açúcar",
+            "animal",
+            "vinho",
+            "leite",
+            "café"
+          ],
+          "rightAnswer": [
+            "café"
+          ],
+          "translation": []
+        },
+        {
+          "phrase": "Cibu",
+          "pronunciation": "cibu",
+          "tokens": [
+            "bem",
+            "calor",
+            "vinho",
+            "leite",
+            "comida"
+          ],
+          "rightAnswer": [
+            "comida"
+          ],
+          "translation": []
+        },
+        {
+          "phrase": "Bevana",
+          "pronunciation": "bevana",
+          "tokens": [
+            "bem",
+            "bebida",
+            "vinho",
+            "comida",
+            "leite"
+          ],
+          "rightAnswer": [
+            "bebida"
+          ],
+          "translation": []
+        },
+        {
+          "phrase": "Pan",
+          "pronunciation": "pan",
+          "tokens": [
+            "leite",
+            "suco",
+            "pão",
+            "comida",
+            "bem"
+          ],
+          "rightAnswer": [
+            "pão"
+          ],
+          "translation": []
+        },
+        {
+          "phrase": "Sucu",
+          "pronunciation": "suc",
+          "tokens": [
+            "suco",
+            "pão",
+            "cerveja",
+            "comida",
+            "leite"
+          ],
+          "rightAnswer": [
+            "suco"
+          ],
+          "translation": []
+        },
+        {
+          "phrase": "Ris",
+          "pronunciation": "riz",
+          "tokens": [
+            "suco",
+            "pão",
+            "arroz",
+            "comida",
+            "leite"
+          ],
+          "rightAnswer": [
+            "arroz"
+          ],
+          "translation": []
+        },
+        {
+          "phrase": "Ou",
+          "pronunciation": "ou",
+          "tokens": [
+            "azeite",
+            "ovo",
+            "leite",
+            "homem",
+            "olho"
+          ],
+          "rightAnswer": [
+            "ovo"
+          ],
+          "translation": []
+        },
+        {
+          "phrase": "Late",
+          "pronunciation": "late",
+          "tokens": [
+            "leite",
+            "olho",
+            "tarde",
+            "lareira",
+            "latir"
+          ],
+          "rightAnswer": [
+            "leite"
+          ],
+          "translation": []
+        },
+        {
+          "phrase": "Repatre",
+          "pronunciation": "repatre",
+          "tokens": [
+            "refeição",
+            "repartir",
+            "repasse",
+            "redenção",
+            "rato"
+          ],
+          "rightAnswer": [
+            "refeição"
+          ],
+          "translation": []
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "title": "Números",
+      "icon": "",
+      "exercises": [
+        {
+          "phrase": "Un",
+          "pronunciation": "",
+          "tokens": [],
+          "rightAnswer": [],
+          "translation": []
+        },
+        {
+          "phrase": "Roje",
+          "pronunciation": "",
+          "tokens": [],
+          "rightAnswer": [],
+          "translation": []
+        },
+        {
+          "phrase": "Tre",
+          "pronunciation": "",
+          "tokens": [],
+          "rightAnswer": [],
+          "translation": []
+        },
+        {
+          "phrase": "Quatru",
+          "pronunciation": "",
+          "tokens": [],
+          "rightAnswer": [],
+          "translation": []
+        },
+        {
+          "phrase": "Cinghe",
+          "pronunciation": "",
+          "tokens": [],
+          "rightAnswer": [],
+          "translation": []
+        },
+        {
+          "phrase": "Seje",
+          "pronunciation": "",
+          "tokens": [],
+          "rightAnswer": [],
+          "translation": []
+        },
+        {
+          "phrase": "Sete",
+          "pronunciation": "",
+          "tokens": [],
+          "rightAnswer": [],
+          "translation": []
+        },
+        {
+          "phrase": "Ot",
+          "pronunciation": "",
+          "tokens": [],
+          "rightAnswer": [],
+          "translation": []
+        },
+        {
+          "phrase": "Noe",
+          "pronunciation": "",
+          "tokens": [],
+          "rightAnswer": [],
+          "translation": []
+        },
+        {
+          "phrase": "Riece",
+          "pronunciation": "",
+          "tokens": [],
+          "rightAnswer": [],
+          "translation": []
+        }
+      ],
+      "enabled": false
+    },
+    {
+      "title": "Datas e Eventos",
+      "icon": "",
+      "exercises": [
+        {
           "phrase": "",
           "pronunciation": "",
           "tokens": [],
@@ -493,18 +857,6 @@
           "translation": []
         }
       ],
-      "enabled": false
-    },
-    {
-      "title": "Números",
-      "icon": "",
-      "exercises": [],
-      "enabled": false
-    },
-    {
-      "title": "Datas e Eventos",
-      "icon": "",
-      "exercises": [],
       "enabled": false
     },
     {
