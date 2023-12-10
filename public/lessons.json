@@ -316,7 +316,7 @@
     },
     {
       "title": "Clima e Localização",
-      "icon": "",
+      "icon": "cloud-drizzle",
       "exercises": [
         {
           "phrase": "Nuol",
@@ -473,76 +473,96 @@
     },
     {
       "title": "Preferências",
-      "icon": "",
+      "icon": "heart",
       "exercises": [
         {
           "phrase": "Gabá",
-          "pronunciation": "",
-          "tokens": [],
-          "rightAnswer": [],
+          "pronunciation": "gabá",
+          "tokens": [
+            "gostar", "odiar", "amor", "livro", "liberdade"
+          ],
+          "rightAnswer": ["gostar"],
           "translation": []
         },
         {
           "phrase": "Detestá",
-          "pronunciation": "",
-          "tokens": [],
-          "rightAnswer": [],
+          "pronunciation": "dedestá",
+          "tokens": [
+            "amar", "livro", "caderno", "detestar", "liberdade"
+          ],
+          "rightAnswer": ["detestar"],
           "translation": []
         },
         {
           "phrase": "Amor",
-          "pronunciation": "",
-          "tokens": [],
-          "rightAnswer": [],
+          "pronunciation": "amor",
+          "tokens": [
+            "adeus", "animal", "amor", "amar", "açúcar"
+          ],
+          "rightAnswer": ["amor"],
           "translation": []
         },
         {
           "phrase": "Faoritu",
-          "pronunciation": "",
-          "tokens": [],
-          "rightAnswer": [],
+          "pronunciation": "faurit",
+          "tokens": [
+            "favorito", "preferir", "gostar", "adorar", "adeus"
+          ],
+          "rightAnswer": ["favorito"],
           "translation": []
         },
         {
           "phrase": "Perfetu",
-          "pronunciation": "",
-          "tokens": [],
-          "rightAnswer": [],
+          "pronunciation": "perfet",
+          "tokens": [
+            "adorar", "perdido", "perfeito", "prefeito", "predileto"
+          ],
+          "rightAnswer": ["perfeito"],
           "translation": []
         },
         {
           "phrase": "Increribel",
-          "pronunciation": "",
-          "tokens": [],
-          "rightAnswer": [],
+          "pronunciation": "incriribel",
+          "tokens": [
+            "adorar", "crer", "incrível", "verão", "impossível"
+          ],
+          "rightAnswer": ["incrível"],
           "translation": []
         },
         {
           "phrase": "Mervejosu",
-          "pronunciation": "",
-          "tokens": [],
-          "rightAnswer": [],
+          "pronunciation": "mervejozu",
+          "tokens": [
+            "maravilhoso", "merda", "América", "adeus", "através"
+          ],
+          "rightAnswer": ["maravilhoso"],
           "translation": []
         },
         {
           "phrase": "Amirabel",
-          "pronunciation": "",
-          "tokens": [],
-          "rightAnswer": [],
+          "pronunciation": "amirabel",
+          "tokens": [
+            "Mirabel", "legal", "adorável", "mirar", "avistar"
+          ],
+          "rightAnswer": ["legal"],
           "translation": []
         },
         {
           "phrase": "Pessimu",
-          "pronunciation": "",
-          "tokens": [],
-          "rightAnswer": [],
+          "pronunciation": "péssim",
+          "tokens": [
+            "ruim", "peixe", "perdido", "péssimo", "praça"
+          ],
+          "rightAnswer": ["péssimo"],
           "translation": []
         },
         {
           "phrase": "Canuciutu",
-          "pronunciation": "",
-          "tokens": [],
-          "rightAnswer": [],
+          "pronunciation": "canuciut",
+          "tokens": [
+            "caneco", "conhecido", "desconhecido", "cobra", "América"
+          ],
+          "rightAnswer": ["conhecido"],
           "translation": []
         }
       ],
@@ -550,7 +570,7 @@
     },
     {
       "title": "Comida e Bebida",
-      "icon": "",
+      "icon": "cup-straw",
       "exercises": [
         {
           "phrase": "Vin",
