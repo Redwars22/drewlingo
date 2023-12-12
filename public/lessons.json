@@ -566,7 +566,7 @@
           "translation": []
         }
       ],
-      "enabled": false
+      "enabled": true
     },
     {
       "title": "Comida e Bebida",
@@ -726,81 +726,81 @@
       "enabled": true
     },
     {
-      "title": "Números",
-      "icon": "",
+      "title": "Números I",
+      "icon": "123",
       "exercises": [
         {
           "phrase": "Un",
-          "pronunciation": "",
-          "tokens": [],
-          "rightAnswer": [],
+          "pronunciation": "un",
+          "tokens": ["5", "2", "4", "1", "7"],
+          "rightAnswer": ["1"],
           "translation": []
         },
         {
           "phrase": "Roje",
-          "pronunciation": "",
-          "tokens": [],
-          "rightAnswer": [],
+          "pronunciation": "roi",
+          "tokens": ["2", "8", "7", "4", "3"],
+          "rightAnswer": ["2"],
           "translation": []
         },
         {
           "phrase": "Tre",
-          "pronunciation": "",
-          "tokens": [],
-          "rightAnswer": [],
+          "pronunciation": "tre",
+          "tokens": ["13", "9", "7", "3", "5"],
+          "rightAnswer": ["3"],
           "translation": []
         },
         {
           "phrase": "Quatru",
-          "pronunciation": "",
-          "tokens": [],
-          "rightAnswer": [],
+          "pronunciation": "quatru",
+          "tokens": ["2", "4", "6", "8", "10"],
+          "rightAnswer": ["4"],
           "translation": []
         },
         {
           "phrase": "Cinghe",
-          "pronunciation": "",
-          "tokens": [],
-          "rightAnswer": [],
+          "pronunciation": "cingue",
+          "tokens": ["5", "1", "7", "8", "13"],
+          "rightAnswer": ["5"],
           "translation": []
         },
         {
           "phrase": "Seje",
-          "pronunciation": "",
-          "tokens": [],
-          "rightAnswer": [],
+          "pronunciation": "sei",
+          "tokens": ["2", "3", "4", "6", "9"],
+          "rightAnswer": ["6"],
           "translation": []
         },
         {
           "phrase": "Sete",
-          "pronunciation": "",
-          "tokens": [],
-          "rightAnswer": [],
+          "pronunciation": "séte",
+          "tokens": ["99", "14", "1", "6", "7"],
+          "rightAnswer": ["7"],
           "translation": []
         },
         {
           "phrase": "Ot",
-          "pronunciation": "",
-          "tokens": [],
-          "rightAnswer": [],
+          "pronunciation": "ót",
+          "tokens": ["81", "33", "8", "30", "2"],
+          "rightAnswer": ["8"],
           "translation": []
         },
         {
           "phrase": "Noe",
-          "pronunciation": "",
-          "tokens": [],
-          "rightAnswer": [],
+          "pronunciation": "nói",
+          "tokens": ["9", "19", "7", "6", "5"],
+          "rightAnswer": ["9"],
           "translation": []
         },
         {
           "phrase": "Riece",
-          "pronunciation": "",
-          "tokens": [],
-          "rightAnswer": [],
+          "pronunciation": "riés",
+          "tokens": ["2", "3", "1", "10", "8"],
+          "rightAnswer": ["10"],
           "translation": []
         }
       ],
-      "enabled": false
+      "enabled": true
     },
     {
       "title": "Datas e Eventos",
