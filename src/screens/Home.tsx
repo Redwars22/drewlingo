@@ -4,6 +4,7 @@ import { HeaderComponent } from '../components/Header.component';
 import useDrewlingoStore from '../modules/store';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { shuffleArray } from '../utils/shuffle';
 
 export function HomeScreen() {
   const {data, updateData} = useDrewlingoStore();
@@ -57,6 +58,25 @@ export function HomeScreen() {
     getLessons();
   }, [data.course]);
 
+  useEffect(()=>{
+    if(lessons.length > 0){
+      const lessArr = lessons;
+
+      for(let lesson = 0; lesson < lessArr.length; lesson++){
+        lessArr[lesson].exercises = shuffleArray(lessArr[lesson].exercises);
+
+        if(lessArr[lesson].exercises.length > 0){
+          for(let ex = 0; ex < lessArr[lesson].exercises.length; ex++){
+            const tk = lessArr[lesson].exercises[ex].tokens;
+            lessArr[lesson].exercises[ex].tokens = shuffleArray(tk)
+          }
+        }
+      }
+
+      setLessons(lessArr)
+    }
+  }, [lessons])
+
   const getColor = ():string => {
     const colors = ["success", "danger", "info", "primary", "secundary", "warning"]
 
@@ -67,8 +87,12 @@ export function HomeScreen() {
     return (
       <div style={{
         display: "flex",
-        flexDirection: "column",
-        marginTop: "100px"
+        marginTop: "100px",
+        maxWidth: "70vw",
+        flexWrap: "wrap",
+        marginLeft: "auto",
+        marginRight: "auto",
+        justifyContent: "space-between",
       }}>
         {lessons && lessons!.map((lesson, index) =>
           (
@@ -77,6 +101,7 @@ export function HomeScreen() {
               disabled={!lesson.enabled || data.points < index * 50}
               style={{
                 width: "150px",
+                minWidth: "150px",
                 height: "150px",
                 textOverflow: "ellipsis"
               }}

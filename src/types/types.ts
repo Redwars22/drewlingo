@@ -9,4 +9,11 @@ export interface IDrewlingo {
     course: TCourse;
     lives: number;
     progress: number;
+    learnedWords: ILearnedWords[];
+}
+
+export type ILearnedWords = {
+    translation: string;
+    pronunciation: string;
+    token: string;
 }

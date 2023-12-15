@@ -7,7 +7,8 @@ const useDrewlingoStore = create<{ data: IDrewlingo } & IStoreActions>()(persist
     points: 0,
     course: "regentish",
     lives: 3,
-    progress: 0
+    progress: 0,
+    learnedWords: []
   },
   updateData: (newData) => {
     set((s) => ({ data: { ...s.data, ...newData } }));

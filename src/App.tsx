@@ -5,6 +5,7 @@ import { HomeScreen } from './screens/Home';
 import Exercises from './screens/Exercises';
 import ExercisesScreen from './screens/Exercises';
 import { ToastContainer } from 'react-toastify';
+import WordsScreen from './screens/Words';
 
 export default function App() {
   return (<>
@@ -23,6 +24,11 @@ export default function App() {
               translation: string[];
             }[]
           ) => <ExercisesScreen {...props} />}
+        />
+        <Route
+          path="/words"
+          Component={(
+          ) => <WordsScreen />}
         />
       </Routes>
     </Router></>

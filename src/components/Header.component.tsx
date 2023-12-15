@@ -3,8 +3,8 @@ import useDrewlingoStore from "../modules/store";
 import { TCourse } from "../types/types";
 
 export const HeaderComponent = () => {
-    const {data, updateData} = useDrewlingoStore();
-    
+    const { data, updateData } = useDrewlingoStore();
+
     const navigate = useNavigate();
 
     return (
@@ -12,7 +12,7 @@ export const HeaderComponent = () => {
             <nav className="border fixed split-nav" style={{
                 display: "flex",
                 gap: "16px",
-                alignItems: "baseline"
+                alignItems: "center"
             }}>
                 <div className="nav-brand" style={{
                     cursor: "pointer"
@@ -32,8 +32,11 @@ export const HeaderComponent = () => {
                         <ul className="inline" style={{
                             display: "flex",
                             gap: "16px",
-                            alignItems: "baseline"
+                            alignItems: "center"
                         }}>
+                            <button className="btn-danger" disabled>HISTÓRIAS</button>
+                            <button className="btn-danger" onClick={()=> navigate("/words")}>
+                                PALAVRAS</button>
                             <li>
                                 <div className="form-group dark">
                                     <select id="paperSelects1" value={data.course} onChange={(ev) => {
@@ -50,6 +53,9 @@ export const HeaderComponent = () => {
                             </li>
                             <li><i className="bi bi-trophy-fill text-danger"></i>{data!.points}</li>
                             <li><i className="bi bi-heart-fill text-danger"></i>{data!.lives}</li>
+                            <button className="btn-success" disabled>
+                                <i className="bi bi-gear"></i>
+                            </button>
                         </ul>
                     </div>
                 </div>

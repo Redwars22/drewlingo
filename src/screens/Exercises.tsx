@@ -27,19 +27,6 @@ export default function ExercisesScreen(
 
   const { data: drewlingo, updateData } = useDrewlingoStore();
 
-  /*const shuffleArray = (array) => {
-    const shuffledArray = [...array];
-
-    for (let i = shuffledArray.length - 1; i > 0; i--) {
-      const randomIndex = Math.floor(Math.random() * i);
-      const temp = shuffledArray[i];
-      shuffledArray[i] = shuffledArray[randomIndex];
-      shuffledArray[randomIndex] = temp;
-    }
-
-    return shuffledArray;
-  };*/
-
   const exercises = useLocation().state;
 
   const getVoices = () => {
@@ -69,6 +56,11 @@ export default function ExercisesScreen(
         setAnswer([]);
         updateData({
           ...drewlingo,
+          learnedWords: [...drewlingo.learnedWords, {
+            translation: rightAnswer[0],
+            token: sentence,
+            pronunciation: pronunciation,
+          }],
           points: drewlingo.points + parseInt(String(Math.random() * 20))
         })
         toast("Resposta correta!", {
@@ -99,8 +91,8 @@ export default function ExercisesScreen(
     }
   };
 
-  useEffect(()=>{
-    if(drewlingo.lives <= 0){
+  useEffect(() => {
+    if (drewlingo.lives <= 0) {
       navigate('/');
 
       toast("Suas vidas acabaram, tente novamente!", {
