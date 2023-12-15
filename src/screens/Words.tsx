@@ -6,7 +6,7 @@ import { ILearnedWords } from "../types/types";
 export default function WordsScreen() {
     const { data } = useDrewlingoStore();
 
-    const words = data.learnedWords;
+    const words = data!.learnedWords;
 
     return (
         <>
@@ -25,7 +25,7 @@ export default function WordsScreen() {
             >
                 <h1>Lista de Palavras Aprendidas</h1>
                 {
-                    words.length > 0 && words.map((word: ILearnedWords) => <div style={{
+                    words!.length > 0 && words.map((word: ILearnedWords) => <div style={{
                         display: "flex",
                         justifyContent: "space-between",
                         alignItems: "center",
