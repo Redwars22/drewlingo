@@ -17,3 +17,5 @@ export type ILearnedWords = {
     pronunciation: string;
     token: string;
 }
+
+export type TSuccess = "success" | "fail";

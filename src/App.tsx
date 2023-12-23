@@ -6,6 +6,8 @@ import Exercises from './screens/Exercises';
 import ExercisesScreen from './screens/Exercises';
 import { ToastContainer } from 'react-toastify';
 import WordsScreen from './screens/Words';
+import SuccessOrFailScreen from './screens/SuccessOrFail';
+import { TSuccess } from './types/types';
 
 export default function App() {
   return (<>
@@ -29,6 +31,10 @@ export default function App() {
           path="/words"
           Component={(
           ) => <WordsScreen />}
+        />
+        <Route
+          path="/done"
+          Component={() => <SuccessOrFailScreen/>}
         />
       </Routes>
     </Router></>

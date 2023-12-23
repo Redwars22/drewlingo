@@ -69,12 +69,7 @@ export default function ExercisesScreen(
           theme: "colored"
         })
       } else {
-        navigate('/');
-        toast("Parabéns!", {
-          type: "success",
-          position: "bottom-center",
-          theme: "colored"
-        })
+        navigate('/done');
       }
     } else {
       toast("Resposta incorreta!", {
@@ -93,13 +88,7 @@ export default function ExercisesScreen(
 
   useEffect(() => {
     if (drewlingo.lives <= 0) {
-      navigate('/');
-
-      toast("Suas vidas acabaram, tente novamente!", {
-        type: "error",
-        position: "bottom-center",
-        theme: "colored"
-      })
+      navigate('/done');
     }
   }, [drewlingo.lives])
 
