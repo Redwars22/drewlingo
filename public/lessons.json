@@ -804,6 +804,83 @@
     },
     {
       "title": "Datas e Eventos",
+      "icon": "calendar-date",
+      "exercises": [
+        {
+          "phrase": "rumienieca",
+          "pronunciation": "rumiêneca",
+          "tokens": ["domingo","segunda-feira", "quarta-feira", "terça-feira", "sábado"],
+          "rightAnswer": ["domingo"],
+          "translation": []
+        },
+        {
+          "phrase": "lunerí",
+          "pronunciation": "lunerí",
+          "tokens": ["segunda-feira", "terça-feira", "quarta-feira", "quinta-feira", "sábado"],
+          "rightAnswer": [],
+          "translation": []
+        },
+        {
+          "phrase": "materí",
+          "pronunciation": "matrí",
+          "tokens": ["terça-feira", "marte", "sexta-feira", "sábado", "mataram-no"],
+          "rightAnswer": ["terça-feira"],
+          "translation": []
+        },
+        {
+          "phrase": "mercolerí",
+          "pronunciation": "mirculirí",
+          "tokens": ["quarta-feira", "terça-feira", "segunda-feira", "domingo", "médico"],
+          "rightAnswer": ["quarta-feira"],
+          "translation": []
+        },
+        {
+          "phrase": "joedí",
+          "pronunciation": "juedí",
+          "tokens": ["quinta-feira", "quarta-feira", "sexta-feira", "domingo", "segunda-feira"],
+          "rightAnswer": ["quinta-feira"],
+          "translation": []
+        },
+        {
+          "phrase": "venerrí",
+          "pronunciation": "venerrí",
+          "tokens": ["sexta-feira", "quarta-feira", "venderam", "vender", "vingança"],
+          "rightAnswer": ["sexta-feira"],
+          "translation": []
+        },
+        {
+          "phrase": "sabatu",
+          "pronunciation": "sábat",
+          "tokens": ["sapato", "sábado", "segunda-feira", "domingo", "quarta-feira"],
+          "rightAnswer": ["sábado"],
+          "translation": []
+        },
+        {
+          "phrase": "fiesta",
+          "pronunciation": "fiésta",
+          "tokens": ["festa", "feliz", "sábado", "desconhecido", "10"],
+          "rightAnswer": ["festa"],
+          "translation": []
+        },
+        {
+          "phrase": "reunion",
+          "pronunciation": "reuniôm",
+          "tokens": ["reunião", "reunido", "avistar", "detestar", "roupa"],
+          "rightAnswer": ["reunião"],
+          "translation": []
+        },
+        {
+          "phrase": "mitá",
+          "pronunciation": "mitá",
+          "tokens": ["metade", "mito", "convidar", "conectar", "invejar"],
+          "rightAnswer": ["convidar"],
+          "translation": []
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "title": "Direções",
       "icon": "",
       "exercises": [
         {
@@ -877,12 +954,6 @@
           "translation": []
         }
       ],
-      "enabled": false
-    },
-    {
-      "title": "Direções",
-      "icon": "",
-      "exercises": [],
       "enabled": false
     },
     {
