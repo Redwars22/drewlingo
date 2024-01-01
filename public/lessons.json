@@ -817,7 +817,7 @@
           "phrase": "lunerí",
           "pronunciation": "lunerí",
           "tokens": ["segunda-feira", "terça-feira", "quarta-feira", "quinta-feira", "sábado"],
-          "rightAnswer": [],
+          "rightAnswer": ["segunda-feira"],
           "translation": []
         },
         {
