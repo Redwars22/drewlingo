@@ -1101,7 +1101,7 @@
     },
     {
       "title": "Direções",
-      "icon": "",
+      "icon": "compass",
       "exercises": [
         {
           "phrase": "nord",
