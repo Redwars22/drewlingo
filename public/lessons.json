@@ -1266,80 +1266,80 @@
     },
     {
       "title": "Hobbies e Compras",
-      "icon": "",
+      "icon": "cart3",
       "exercises": [
         {
-          "phrase": "",
-          "pronunciation": "",
-          "tokens": [],
-          "rightAnswer": [],
+          "phrase": "acatá",
+          "pronunciation": "acatá",
+          "tokens": ["comprar", "atacar", "aumentar", "adorar", "antecipar"],
+          "rightAnswer": ["comprar"],
           "translation": []
         },
         {
-          "phrase": "",
-          "pronunciation": "",
-          "tokens": [],
-          "rightAnswer": [],
+          "phrase": "negociu",
+          "pronunciation": "negóciu",
+          "tokens": ["negócio", "loja", "coisa", "produto", "objeto"],
+          "rightAnswer": ["loja"],
           "translation": []
         },
         {
-          "phrase": "",
-          "pronunciation": "",
-          "tokens": [],
-          "rightAnswer": [],
+          "phrase": "prorotu",
+          "pronunciation": "prorot",
+          "tokens": ["produto", "preço", "precioso", "prólogo", "protagonista"],
+          "rightAnswer": ["produto"],
           "translation": []
         },
         {
-          "phrase": "",
-          "pronunciation": "",
-          "tokens": [],
-          "rightAnswer": [],
+          "phrase": "mi acatu",
+          "pronunciation": "miacát",
+          "tokens": ["eu compro", "você compra para mim", "ele compra para mim", "eu comprei para mim", "ele me ataca"],
+          "rightAnswer": ["eu compro"],
           "translation": []
         },
         {
-          "phrase": "",
-          "pronunciation": "",
-          "tokens": [],
-          "rightAnswer": [],
+          "phrase": "te acata",
+          "pronunciation": "tacát",
+          "tokens": ["você compra", "você ataca", "tu atacas", "tu desistes", "você aumenta"],
+          "rightAnswer": ["você compra"],
           "translation": []
         },
         {
-          "phrase": "",
-          "pronunciation": "",
-          "tokens": [],
-          "rightAnswer": [],
+          "phrase": "presente",
+          "pronunciation": "present",
+          "tokens": ["presente", "pânico", "desconhecido", "padre", "perdido"],
+          "rightAnswer": ["presente"],
           "translation": []
         },
         {
-          "phrase": "",
-          "pronunciation": "",
-          "tokens": [],
-          "rightAnswer": [],
+          "phrase": "el acata",
+          "pronunciation": "elacáta",
+          "tokens": ["ele compra", "eles compram", "ela compra", "elas compram", "vocês compram"],
+          "rightAnswer": ["ele compra"],
           "translation": []
         },
         {
-          "phrase": "",
-          "pronunciation": "",
-          "tokens": [],
-          "rightAnswer": [],
+          "phrase": "la acata",
+          "pronunciation": "lacáta",
+          "tokens": ["ela compra", "ela cata", "ela acusa", "ela presenteia", "eles compram"],
+          "rightAnswer": ["ela compra"],
           "translation": []
         },
         {
-          "phrase": "",
-          "pronunciation": "",
-          "tokens": [],
-          "rightAnswer": [],
+          "phrase": "mi so drio acatá",
+          "pronunciation": "missodrí acatá",
+          "tokens": ["eu estou comprando", "ela está comprando para mim", "ela me comprou", "eu comprei presentes", "ela me comprou algo"],
+          "rightAnswer": ["eu estou comprando"],
           "translation": []
         },
         {
-          "phrase": "",
-          "pronunciation": "",
-          "tokens": [],
-          "rightAnswer": [],
+          "phrase": "está drio",
+          "pronunciation": "está drí",
+          "tokens": ["estar fazendo", "estar doente", "estar dentro", "estar dormindo", "estar dividido"],
+          "rightAnswer": ["estar fazendo"],
           "translation": []
         }
       ],
-      "enabled": false
+      "enabled": true
     },
     {
       "title": "Relacionamentos",
