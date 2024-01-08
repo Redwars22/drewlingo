@@ -1346,6 +1346,83 @@
       "icon": "",
       "exercises": [
         {
+          "phrase": "amor",
+          "pronunciation": "amor",
+          "tokens": [],
+          "rightAnswer": [],
+          "translation": []
+        },
+        {
+          "phrase": "bombon",
+          "pronunciation": "bombon",
+          "tokens": [],
+          "rightAnswer": [],
+          "translation": []
+        },
+        {
+          "phrase": "passion",
+          "pronunciation": "passion",
+          "tokens": [],
+          "rightAnswer": [],
+          "translation": []
+        },
+        {
+          "phrase": "te tiene bombon in Giovanni?",
+          "pronunciation": "tetiên bombon in Giovanni?",
+          "tokens": [],
+          "rightAnswer": [],
+          "translation": []
+        },
+        {
+          "phrase": "te tiene bombon in me?",
+          "pronunciation": "tetiên bombon in mê?",
+          "tokens": [],
+          "rightAnswer": [],
+          "translation": []
+        },
+        {
+          "phrase": "mi ama te",
+          "pronunciation": "miama tê",
+          "tokens": [],
+          "rightAnswer": [],
+          "translation": []
+        },
+        {
+          "phrase": "mi ama te apena com amicu",
+          "pronunciation": "miama tê apena comamíc",
+          "tokens": [],
+          "rightAnswer": [],
+          "translation": []
+        },
+        {
+          "phrase": "amicu",
+          "pronunciation": "amic",
+          "tokens": [],
+          "rightAnswer": [],
+          "translation": []
+        },
+        {
+          "phrase": "te é mi amicu",
+          "pronunciation": "té miamíc",
+          "tokens": [],
+          "rightAnswer": [],
+          "translation": []
+        },
+        {
+          "phrase": "mi so tu bombon o tu amicu?",
+          "pronunciation": "missô tubombon o tuamíc?",
+          "tokens": [],
+          "rightAnswer": [],
+          "translation": []
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "title": "Casa",
+      "icon": "",
+      "exercises": [
+        {
           "phrase": "",
           "pronunciation": "",
           "tokens": [],
@@ -1416,12 +1493,6 @@
           "translation": []
         }
       ],
-      "enabled": false
-    },
-    {
-      "title": "Casa",
-      "icon": "",
-      "exercises": [],
       "enabled": false
     },
     {
