@@ -1343,7 +1343,7 @@
     },
     {
       "title": "Relacionamentos",
-      "icon": "",
+      "icon": "balloon-heart",
       "exercises": [
         {
           "phrase": "amor",
@@ -1377,7 +1377,7 @@
           "phrase": "te tiene bombon in me?",
           "pronunciation": "tetiên bombon in mê?",
           "tokens": ["você", "tem", "um", "crush", "por", "mim"],
-          "rightAnswer": ["você", "tem", "um", "crush", "em", "Giovanni"],
+          "rightAnswer": ["você", "tem", "um", "crush", "por", "mim"],
           "translation": ["você", "tem (presente)", "crush", "em", "me, mim (objeto preposicional)"]
         },
         {
