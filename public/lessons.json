@@ -1348,72 +1348,72 @@
         {
           "phrase": "amor",
           "pronunciation": "amor",
-          "tokens": [],
-          "rightAnswer": [],
+          "tokens": ["amor", "10", "amar", "adeus", "adorar"],
+          "rightAnswer": ["amor"],
           "translation": []
         },
         {
           "phrase": "bombon",
           "pronunciation": "bombon",
-          "tokens": [],
-          "rightAnswer": [],
+          "tokens": ["amor", "namorado", "namorada", "bombom", "crush"],
+          "rightAnswer": ["crush"],
           "translation": []
         },
         {
           "phrase": "passion",
           "pronunciation": "passion",
-          "tokens": [],
-          "rightAnswer": [],
+          "tokens": ["paixão", "peixão", "peixe", "perfeito", "praça", "poção"],
+          "rightAnswer": ["paixão"],
           "translation": []
         },
         {
           "phrase": "te tiene bombon in Giovanni?",
           "pronunciation": "tetiên bombon in Giovanni?",
-          "tokens": [],
-          "rightAnswer": [],
-          "translation": []
+          "tokens": ["você", "tem", "um", "crush", "em", "Giovanni"],
+          "rightAnswer": ["você", "tem", "um", "crush", "em", "Giovanni"],
+          "translation": ["você", "tem (presente)", "crush", "em"]
         },
         {
           "phrase": "te tiene bombon in me?",
           "pronunciation": "tetiên bombon in mê?",
-          "tokens": [],
-          "rightAnswer": [],
-          "translation": []
+          "tokens": ["você", "tem", "um", "crush", "por", "mim"],
+          "rightAnswer": ["você", "tem", "um", "crush", "em", "Giovanni"],
+          "translation": ["você", "tem (presente)", "crush", "em", "me, mim (objeto preposicional)"]
         },
         {
           "phrase": "mi ama te",
           "pronunciation": "miama tê",
-          "tokens": [],
-          "rightAnswer": [],
-          "translation": []
+          "tokens": ["eu", "amo", "você"],
+          "rightAnswer": ["eu", "amo", "você"],
+          "translation": ["eu", "ama (presente)", "você (acusativo, enfático)"]
         },
         {
           "phrase": "mi ama te apena com amicu",
           "pronunciation": "miama tê apena comamíc",
-          "tokens": [],
-          "rightAnswer": [],
-          "translation": []
+          "tokens": ["eu", "amo", "você", "apenas", "como", "amigo"],
+          "rightAnswer": ["eu", "amo", "você", "apenas", "como", "amigo"],
+          "translation": ["eu", "amo", "você", "apenas", "como", "amigo"]
         },
         {
           "phrase": "amicu",
           "pronunciation": "amic",
-          "tokens": [],
-          "rightAnswer": [],
+          "tokens": ["amigo", "adeus", "adorar", "amar", "eu amo"],
+          "rightAnswer": ["amigo"],
           "translation": []
         },
         {
           "phrase": "te é mi amicu",
           "pronunciation": "té miamíc",
-          "tokens": [],
-          "rightAnswer": [],
-          "translation": []
+          "tokens": ["você", "é", "meu", "amigo"],
+          "rightAnswer": ["você", "é", "meu", "amigo"],
+          "translation": ["você", "é (presente)", "meu, minha", "amigo"]
         },
         {
           "phrase": "mi so tu bombon o tu amicu?",
           "pronunciation": "missô tubombon o tuamíc?",
-          "tokens": [],
-          "rightAnswer": [],
-          "translation": []
+          "tokens": ["eu", "sou", "teu", "crush", "ou", "teu", "amigo"],
+          "rightAnswer": ["eu", "sou", "teu", "crush", "ou", "teu", "amigo"],
+          "translation": ["eu", "sou", "teu", "crush", "ou", "teu", "amigo"]
         }
       ],
       "enabled": true
