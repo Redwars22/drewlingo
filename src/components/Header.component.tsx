@@ -53,7 +53,7 @@ export const HeaderComponent = () => {
                             </li>
                             <li><i className="bi bi-trophy-fill text-danger"></i>{data!.points}</li>
                             <li><i className="bi bi-heart-fill text-danger"></i>{data!.lives}</li>
-                            <button className="btn-success" disabled>
+                            <button className="btn-success" onClick={() => navigate("/settings")}>
                                 <i className="bi bi-gear"></i>
                             </button>
                         </ul>

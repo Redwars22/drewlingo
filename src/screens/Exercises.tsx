@@ -1,10 +1,11 @@
-import { useEffect, useState } from 'react';
-import { useLocation, useNavigate, useNavigation } from 'react-router';
-import { HeaderComponent } from '../components/Header.component';
-import useDrewlingoStore from '../modules/store';
-import { TCourse } from '../types/types';
-import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+import { useEffect, useState } from "react";
+import { useLocation, useNavigate, useNavigation } from "react-router";
+import { HeaderComponent } from "../components/Header.component";
+import useDrewlingoStore from "../modules/store";
+import { ILearnedWords, TCourse } from "../types/types";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+import { handleSpeech } from "../modules/textToSpeech";
 
 export default function ExercisesScreen(
   data: {
@@ -16,8 +17,8 @@ export default function ExercisesScreen(
   }[]
 ) {
   const [progress, setProgress] = useState(0);
-  const [sentence, setSentence] = useState('');
-  const [pronunciation, setPronunciation] = useState('');
+  const [sentence, setSentence] = useState("");
+  const [pronunciation, setPronunciation] = useState("");
   const [tokens, setTokens] = useState([]);
   const [answer, setAnswer] = useState([]);
   const [rightAnswer, setRightAnswer] = useState([]);
@@ -29,24 +30,21 @@ export default function ExercisesScreen(
 
   const exercises = useLocation().state;
 
-  const getVoices = () => {
-
-    if (drewlingo.course === "regentish" as TCourse) return 'pt-BR';
-    if (drewlingo.course === "shatan" as TCourse) return 'he-IL';
-    if (drewlingo.course === "crvenagorski" as TCourse) {
-      return 'bs-BA';
-    };
-
-    return 'en-US';
-  }
-
-  const handleSpeech = () => {
-    const utterance = new SpeechSynthesisUtterance(
-      pronunciation ? pronunciation : ''
+  const isWordInArray = () => {
+    const isWordInTheList = drewlingo.learnedWords.find(
+      (word) => word.translation == rightAnswer[0]
     );
-    utterance.lang = getVoices();
 
-    speechSynthesis.speak(utterance);
+    if (isWordInTheList) return [...drewlingo.learnedWords];
+    else
+      return [
+        ...drewlingo.learnedWords,
+        {
+          translation: rightAnswer[0],
+          token: sentence,
+          pronunciation: pronunciation,
+        },
+      ];
   };
 
   const checkAnswer = () => {
@@ -56,41 +54,37 @@ export default function ExercisesScreen(
         setAnswer([]);
         updateData({
           ...drewlingo,
-          learnedWords: [...drewlingo.learnedWords, {
-            translation: rightAnswer[0],
-            token: sentence,
-            pronunciation: pronunciation,
-          }],
-          points: drewlingo.points + parseInt(String(Math.random() * 20))
-        })
+          learnedWords: isWordInArray(),
+          points: drewlingo.points + parseInt(String(Math.random() * 20)),
+        });
         toast("Resposta correta!", {
           type: "success",
           position: "bottom-center",
-          theme: "colored"
-        })
+          theme: "colored",
+        });
       } else {
-        navigate('/done');
+        navigate("/done");
       }
     } else {
       toast("Resposta incorreta!", {
         type: "error",
         position: "bottom-center",
-        theme: "colored"
-      })
+        theme: "colored",
+      });
 
       updateData({
         ...drewlingo,
         lives: drewlingo.lives - 1,
-        progress: drewlingo.progress + 1
+        progress: drewlingo.progress + 1,
       });
     }
   };
 
   useEffect(() => {
     if (drewlingo.lives <= 0) {
-      navigate('/done');
+      navigate("/done");
     }
-  }, [drewlingo.lives])
+  }, [drewlingo.lives]);
 
   useEffect(() => {
     const exercise: {
@@ -112,47 +106,58 @@ export default function ExercisesScreen(
     <div>
       <ToastContainer />
       <HeaderComponent />
-      <div className="container" style={{
-        marginTop: "100px"
-      }}>
-        <div style={{
-          display: "flex",
-          justifyContent: "space-around",
-          gap: "8px"
-        }}>
+      <div
+        className="container"
+        style={{
+          marginTop: "100px",
+        }}
+      >
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "space-around",
+            gap: "8px",
+          }}
+        >
           <progress
             className="progress bar"
             style={{
-              width: "50%"
+              width: "50%",
             }}
             value={progress}
             max={exercises.length}
           ></progress>
-          <div className="text text-danger"><i className='bi bi-heart-fill' style={{
-            marginRight: "5px"
-          }}></i>{drewlingo.lives}</div>
+          <div className="text text-danger">
+            <i
+              className="bi bi-heart-fill"
+              style={{
+                marginRight: "5px",
+              }}
+            ></i>
+            {drewlingo.lives}
+          </div>
         </div>
         <br />
         <button
           className="btn btn-dark background-secondary"
-          onClick={() => handleSpeech()}
+          onClick={() => handleSpeech(pronunciation, drewlingo.course)}
         >
           <i className="bi bi-volume-up"></i>
         </button>
         <div
           style={{
-            display: 'flex',
-            gap: '8px',
-            flexWrap: 'wrap',
+            display: "flex",
+            gap: "8px",
+            flexWrap: "wrap",
           }}
         >
-          {sentence !== '' &&
-            sentence?.split(' ')!.map((word, index) => {
+          {sentence !== "" &&
+            sentence?.split(" ")!.map((word, index) => {
               return (
                 <h4
                   popover-bottom={translations[index]}
                   style={{
-                    margin: '0',
+                    margin: "0",
                   }}
                 >
                   {word}
@@ -162,8 +167,8 @@ export default function ExercisesScreen(
         </div>
         <div
           style={{
-            display: 'flex',
-            gap: '5px',
+            display: "flex",
+            gap: "5px",
           }}
         >
           {answer.map((item) => (
@@ -180,14 +185,22 @@ export default function ExercisesScreen(
             ))}
         </>
         <br />
-        <button style={{
-          marginTop: "24px"
-        }} className="btn btn-success" onClick={() => checkAnswer()}>
+        <button
+          style={{
+            marginTop: "24px",
+          }}
+          className="btn btn-success"
+          onClick={() => checkAnswer()}
+        >
           Próximo
         </button>
-        <button style={{
-          marginTop: "24px"
-        }} className="btn btn-danger" onClick={() => setAnswer([])}>
+        <button
+          style={{
+            marginTop: "24px",
+          }}
+          className="btn btn-danger"
+          onClick={() => setAnswer([])}
+        >
           Recomeçar
         </button>
       </div>
