@@ -1420,80 +1420,80 @@
     },
     {
       "title": "Casa",
-      "icon": "",
+      "icon": "house",
       "exercises": [
         {
-          "phrase": "",
-          "pronunciation": "",
+          "phrase": "mi casa",
+          "pronunciation": "micáza",
           "tokens": [],
           "rightAnswer": [],
           "translation": []
         },
         {
-          "phrase": "",
-          "pronunciation": "",
+          "phrase": "tu casa",
+          "pronunciation": "tucáza",
           "tokens": [],
           "rightAnswer": [],
           "translation": []
         },
         {
-          "phrase": "",
-          "pronunciation": "",
+          "phrase": "abitacion",
+          "pronunciation": "abitaciun",
           "tokens": [],
           "rightAnswer": [],
           "translation": []
         },
         {
-          "phrase": "",
-          "pronunciation": "",
+          "phrase": "mi abitacion",
+          "pronunciation": "miabitaciún",
           "tokens": [],
           "rightAnswer": [],
           "translation": []
         },
         {
-          "phrase": "",
-          "pronunciation": "",
+          "phrase": "cusina",
+          "pronunciation": "cusina",
           "tokens": [],
           "rightAnswer": [],
           "translation": []
         },
         {
-          "phrase": "",
-          "pronunciation": "",
+          "phrase": "banhu",
+          "pronunciation": "banhu",
           "tokens": [],
           "rightAnswer": [],
           "translation": []
         },
         {
-          "phrase": "",
-          "pronunciation": "",
+          "phrase": "gardamachina",
+          "pronunciation": "gardamáquina",
           "tokens": [],
           "rightAnswer": [],
           "translation": []
         },
         {
-          "phrase": "",
-          "pronunciation": "",
+          "phrase": "bi i estan quatro persone inda casa",
+          "pronunciation": "bií están quatru person índa casa",
           "tokens": [],
           "rightAnswer": [],
           "translation": []
         },
         {
-          "phrase": "",
-          "pronunciation": "",
+          "phrase": "inda casa",
+          "pronunciation": "índa casa",
           "tokens": [],
           "rightAnswer": [],
           "translation": []
         },
         {
-          "phrase": "",
-          "pronunciation": "",
+          "phrase": "â casa",
+          "pronunciation": "á casa",
           "tokens": [],
           "rightAnswer": [],
           "translation": []
         }
       ],
-      "enabled": false
+      "enabled": true
     },
     {
       "title": "Escola",
