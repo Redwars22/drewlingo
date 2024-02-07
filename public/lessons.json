@@ -1481,8 +1481,8 @@
         {
           "phrase": "inda casa",
           "pronunciation": "índa casa",
-          "tokens": ["na", "em", "a", "casa"],
-          "rightAnswer": ["no", "casa"],
+          "tokens": ["no", "em", "a", "casa"],
+          "rightAnswer": ["em", "casa"],
           "translation": ["in + a = inda(na)", "casa"]
         },
         {
