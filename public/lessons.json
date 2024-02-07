@@ -1425,22 +1425,22 @@
         {
           "phrase": "mi casa",
           "pronunciation": "micáza",
-          "tokens": [],
-          "rightAnswer": [],
-          "translation": []
+          "tokens": ["casa", "minha", "meu", "casar"],
+          "rightAnswer": ["minha", "casa"],
+          "translation": ["meu, minha, meus, minhas", "casa"]
         },
         {
           "phrase": "tu casa",
           "pronunciation": "tucáza",
-          "tokens": [],
-          "rightAnswer": [],
-          "translation": []
+          "tokens": ["tua", "teu", "casa"],
+          "rightAnswer": ["tua", "casa"],
+          "translation": ["teu, tua, seu, sua, teus, tuas", "casa"]
         },
         {
           "phrase": "abitacion",
           "pronunciation": "abitaciun",
-          "tokens": [],
-          "rightAnswer": [],
+          "tokens": ["habitação", "quarto", "hábito", "habitar"],
+          "rightAnswer": ["quarto"],
           "translation": []
         },
         {
@@ -1453,22 +1453,22 @@
         {
           "phrase": "cusina",
           "pronunciation": "cusina",
-          "tokens": [],
-          "rightAnswer": [],
+          "tokens": ["cozinha", "cozinhar", "ele cozinha", "ela cozinha"],
+          "rightAnswer": ["cozinha"],
           "translation": []
         },
         {
           "phrase": "banhu",
           "pronunciation": "banhu",
-          "tokens": [],
-          "rightAnswer": [],
+          "tokens": ["banho", "banheiro", "banhar-se", "banho-me"],
+          "rightAnswer": ["banheiro"],
           "translation": []
         },
         {
           "phrase": "gardamachina",
           "pronunciation": "gardamáquina",
-          "tokens": [],
-          "rightAnswer": [],
+          "tokens": ["máquina de lavar", "garagem", "carro", "guarda-roupa"],
+          "rightAnswer": ["garagem"],
           "translation": []
         },
         {
@@ -1481,16 +1481,16 @@
         {
           "phrase": "inda casa",
           "pronunciation": "índa casa",
-          "tokens": [],
-          "rightAnswer": [],
-          "translation": []
+          "tokens": ["na", "em", "a", "casa"],
+          "rightAnswer": ["no", "casa"],
+          "translation": ["in + a = inda(na)", "casa"]
         },
         {
           "phrase": "â casa",
           "pronunciation": "á casa",
-          "tokens": [],
-          "rightAnswer": [],
-          "translation": []
+          "tokens": ["para", "casa", "por", "pela"],
+          "rightAnswer": ["para", "casa"],
+          "translation": ["para a, à"]
         }
       ],
       "enabled": true
