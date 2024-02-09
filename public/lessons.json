@@ -1446,8 +1446,8 @@
         {
           "phrase": "mi abitacion",
           "pronunciation": "miabitaciún",
-          "tokens": [],
-          "rightAnswer": [],
+          "tokens": ["meu", "minha", "meus", "quarto"],
+          "rightAnswer": ["meu quarto"],
           "translation": []
         },
         {
@@ -1474,9 +1474,9 @@
         {
           "phrase": "bi i estan quatro persone inda casa",
           "pronunciation": "bií están quatru person índa casa",
-          "tokens": [],
-          "rightAnswer": [],
-          "translation": []
+          "tokens": ["tem", "quatro", "pessoas", "na", "casa"],
+          "rightAnswer": ["tem", "quatro", "pessoas", "na", "casa"],
+          "translation": ["lá, ali, para lá, naquele lugar", "eles, elas, vocês", "estão, há", "quatro", "pessoas", "na", "casa"]
         },
         {
           "phrase": "inda casa",
