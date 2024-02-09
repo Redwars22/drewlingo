@@ -1497,26 +1497,104 @@
     },
     {
       "title": "Escola",
-      "icon": "",
-      "exercises": [],
-      "enabled": false
+      "icon": "book",
+      "exercises": [{
+        "phrase": "a scola",
+        "pronunciation": "",
+        "tokens": [],
+        "rightAnswer": [],
+        "translation": []
+      }, {
+        "phrase": "mi va â scola",
+        "pronunciation": "",
+        "tokens": [],
+        "rightAnswer": [],
+        "translation": []
+      }, {
+        "phrase": "mi impara",
+        "pronunciation": "",
+        "tokens": [],
+        "rightAnswer": [],
+        "translation": []
+      }, {
+        "phrase": "tu impara",
+        "pronunciation": "",
+        "tokens": [],
+        "rightAnswer": [],
+        "translation": []
+      }, {
+        "phrase": "el impara",
+        "pronunciation": "",
+        "tokens": [],
+        "rightAnswer": [],
+        "translation": []
+      }, {
+        "phrase": "la impara",
+        "pronunciation": "",
+        "tokens": [],
+        "rightAnswer": [],
+        "translation": []
+      }, {
+        "phrase": "ni impara",
+        "pronunciation": "",
+        "tokens": [],
+        "rightAnswer": [],
+        "translation": []
+      }, {
+        "phrase": "i impara",
+        "pronunciation": "",
+        "tokens": [],
+        "rightAnswer": [],
+        "translation": []
+      }, {
+        "phrase": "i imparan",
+        "pronunciation": "",
+        "tokens": [],
+        "rightAnswer": [],
+        "translation": []
+      }, {
+        "phrase": "mi impara inda scola",
+        "pronunciation": "",
+        "tokens": [],
+        "rightAnswer": [],
+        "translation": []
+      }],
+      "enabled": true
     },
     {
       "title": "Esportes",
       "icon": "",
-      "exercises": [],
+      "exercises": [{
+        "phrase": "",
+        "pronunciation": "",
+        "tokens": [],
+        "rightAnswer": [],
+        "translation": []
+      }],
       "enabled": false
     },
     {
       "title": "Descrever Pessoas",
       "icon": "",
-      "exercises": [],
+      "exercises": [{
+        "phrase": "",
+        "pronunciation": "",
+        "tokens": [],
+        "rightAnswer": [],
+        "translation": []
+      }],
       "enabled": false
     },
     {
       "title": "Família",
       "icon": "",
-      "exercises": [],
+      "exercises": [{
+        "phrase": "",
+        "pronunciation": "",
+        "tokens": [],
+        "rightAnswer": [],
+        "translation": []
+      }],
       "enabled": false
     },
     {
