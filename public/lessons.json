@@ -1509,55 +1509,55 @@
         "pronunciation": "mi vá a l'escola",
         "tokens": ["eu", "ele", "vai", "vou", "à", "escola"],
         "rightAnswer": ["eu", "vou", "à", "escola"],
-        "translation": []
+        "translation": ["eu", "vou", "a", "a escola"]
       }, {
         "phrase": "mi impara",
         "pronunciation": "mimpara",
         "tokens": ["eu", "você", "nós", "aprendo", "aprende", "aprendemos"],
         "rightAnswer": ["eu", "aprendo"],
-        "translation": []
+        "translation": ["eu", "aprendo"]
       }, {
         "phrase": "te impara",
         "pronunciation": "timpara",
         "tokens": ["eu", "você", "nós", "aprendo", "aprende", "aprendemos"],
         "rightAnswer": ["você", "aprende"],
-        "translation": []
+        "translation": ["você", "aprende"]
       }, {
         "phrase": "el impara",
         "pronunciation": "limpara",
         "tokens": ["ele", "ela", "aprende", "eles", "aprendem"],
         "rightAnswer": ["ele", "aprende"],
-        "translation": []
+        "translation": ["ele", "aprende"]
       }, {
         "phrase": "la impara",
         "pronunciation": "laimpara",
         "tokens": ["ele", "ela", "aprende", "eles", "aprendem"],
         "rightAnswer": ["ela", "aprende"],
-        "translation": []
+        "translation": ["ela", "aprende"]
       }, {
         "phrase": "ni impara",
         "pronunciation": "nimpara",
         "tokens": ["eu", "você", "nós", "aprendo", "aprende", "aprendemos"],
         "rightAnswer": ["nós", "aprendemos"],
-        "translation": []
+        "translation": ["nós", "aprendemos"]
       }, {
         "phrase": "i impara",
         "pronunciation": "iimpara",
         "tokens": ["você", "vocês", "aprende", "aprendem", "eles"],
         "rightAnswer": ["vocês", "aprendem"],
-        "translation": []
+        "translation": ["vocês", "aprendem"]
       }, {
         "phrase": "i imparan",
         "pronunciation": "iimpáram",
         "tokens": ["você", "vocês", "aprende", "aprendem", "eles"],
         "rightAnswer": ["eles", "aprendem"],
-        "translation": []
+        "translation": ["eles", "aprendem"]
       }, {
         "phrase": "mi impara inda escola",
         "pronunciation": "mimpáranda iscola",
         "tokens": ["eu", "estuda", "estudo", "na", "escola"],
         "rightAnswer": ["eu", "estudo", "na", "escola"],
-        "translation": []
+        "translation": ["eu", "estudo", "na", "escola"]
       }],
       "enabled": true
     },
