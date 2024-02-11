@@ -1499,62 +1499,62 @@
       "title": "Escola",
       "icon": "book",
       "exercises": [{
-        "phrase": "a scola",
-        "pronunciation": "",
+        "phrase": "l'escola",
+        "pronunciation": "lescola",
         "tokens": [],
         "rightAnswer": [],
         "translation": []
       }, {
-        "phrase": "mi va â scola",
-        "pronunciation": "",
+        "phrase": "mi va a l'escola",
+        "pronunciation": "mi vá a l'escola",
         "tokens": [],
         "rightAnswer": [],
         "translation": []
       }, {
         "phrase": "mi impara",
-        "pronunciation": "",
+        "pronunciation": "mimpara",
         "tokens": [],
         "rightAnswer": [],
         "translation": []
       }, {
-        "phrase": "tu impara",
-        "pronunciation": "",
+        "phrase": "te impara",
+        "pronunciation": "timpara",
         "tokens": [],
         "rightAnswer": [],
         "translation": []
       }, {
         "phrase": "el impara",
-        "pronunciation": "",
+        "pronunciation": "limpara",
         "tokens": [],
         "rightAnswer": [],
         "translation": []
       }, {
         "phrase": "la impara",
-        "pronunciation": "",
+        "pronunciation": "laimpara",
         "tokens": [],
         "rightAnswer": [],
         "translation": []
       }, {
         "phrase": "ni impara",
-        "pronunciation": "",
+        "pronunciation": "nimpara",
         "tokens": [],
         "rightAnswer": [],
         "translation": []
       }, {
         "phrase": "i impara",
-        "pronunciation": "",
+        "pronunciation": "iimpara",
         "tokens": [],
         "rightAnswer": [],
         "translation": []
       }, {
         "phrase": "i imparan",
-        "pronunciation": "",
+        "pronunciation": "iimpáram",
         "tokens": [],
         "rightAnswer": [],
         "translation": []
       }, {
-        "phrase": "mi impara inda scola",
-        "pronunciation": "",
+        "phrase": "mi impara inda escola",
+        "pronunciation": "mimpáranda iscola",
         "tokens": [],
         "rightAnswer": [],
         "translation": []
