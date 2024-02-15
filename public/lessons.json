@@ -1567,62 +1567,62 @@
       "exercises": [{
         "phrase": "mi joca",
         "pronunciation": "mióca",
-        "tokens": [],
-        "rightAnswer": [],
+        "tokens": ["eu", "jogo", "joga", "mim"],
+        "rightAnswer": ["eu", "jogo"],
         "translation": []
       }, {
         "phrase": "te joca",
         "pronunciation": "teióca",
-        "tokens": [],
-        "rightAnswer": [],
+        "tokens": ["você", "joga", "jogam", "te", "para ti"],
+        "rightAnswer": ["você", "joga"],
         "translation": []
       }, {
         "phrase": "mi joca ô futebol",
         "pronunciation": "mióca ó futebóle",
-        "tokens": [],
-        "rightAnswer": [],
+        "tokens": ["eu", "jogo", "futebol", "joga", "mim", "não"],
+        "rightAnswer": ["eu", "jogo", "futebol"],
         "translation": []
       }, {
         "phrase": "te joca ô beisebol",
         "pronunciation": "teióca ó beisebole",
-        "tokens": [],
-        "rightAnswer": [],
+        "tokens": ["você", "joga", "beisebol", "ao", "ti"],
+        "rightAnswer": ["você", "joga", "beisebol"],
         "translation": []
       }, {
         "phrase": "i jocan ô futebol insieme",
         "pronunciation": "iócan ó futebole insieme",
-        "tokens": [],
-        "rightAnswer": [],
+        "tokens": ["eles", "jogam", "futebol", "junto", "juntos", "ao", "vocês"],
+        "rightAnswer": ["eles", "jogam", "futebol", "juntos"],
         "translation": []
       }, {
         "phrase": "mi sape",
         "pronunciation": "missápi",
-        "tokens": [],
-        "rightAnswer": [],
+        "tokens": ["eu", "sei", "mim", "sabe"],
+        "rightAnswer": ["eu", "sei"],
         "translation": []
       }, {
         "phrase": "mi sape jocar ô futebol",
         "pronunciation": "missápi iocá ó futebole",
-        "tokens": [],
-        "rightAnswer": [],
+        "tokens": ["eu", "sei", "jogar", "futebol", "sabe"],
+        "rightAnswer": ["eu", "sei", "jogar", "futebol"],
         "translation": []
       }, {
         "phrase": "te sape jocar ô beisebol?",
         "pronunciation": "tessápi iocá ó beisebóle",
-        "tokens": [],
-        "rightAnswer": [],
+        "tokens": ["você", "sabe", "jogar", "bêisebol", "não"],
+        "rightAnswer": ["você", "sabe", "jogar", "bêisebol"],
         "translation": []
       }, {
         "phrase": "mi vole imparar a jocar ô futebol",
         "pronunciation": "mivóli impará a iocá ó futebole",
-        "tokens": [],
-        "rightAnswer": [],
+        "tokens": ["eu", "quero", "mim", "quer", "aprender", "a", "jogar", "futebol"],
+        "rightAnswer": ["eu", "quero", "aprender", "a", "jogar", "futebol"],
         "translation": []
       }, {
         "phrase": "a pala",
         "pronunciation": "a pala",
-        "tokens": [],
-        "rightAnswer": [],
+        "tokens": ["a", "o", "bola", "bala"],
+        "rightAnswer": ["a", "bola"],
         "translation": []
       }],
       "enabled": true
