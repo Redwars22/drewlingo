@@ -55,7 +55,7 @@ export default function ExercisesScreen(
         updateData({
           ...drewlingo,
           learnedWords: isWordInArray(),
-          points: drewlingo.points + parseInt(String(Math.random() * 20)),
+          points: drewlingo.points + Math.floor(Math.random() * 20),
         });
         toast("Resposta correta!", {
           type: "success",
