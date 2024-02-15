@@ -1565,13 +1565,67 @@
       "title": "Esportes",
       "icon": "",
       "exercises": [{
-        "phrase": "",
-        "pronunciation": "",
+        "phrase": "mi joca",
+        "pronunciation": "mióca",
+        "tokens": [],
+        "rightAnswer": [],
+        "translation": []
+      }, {
+        "phrase": "te joca",
+        "pronunciation": "teióca",
+        "tokens": [],
+        "rightAnswer": [],
+        "translation": []
+      }, {
+        "phrase": "mi joca ô futebol",
+        "pronunciation": "mióca ó futebóle",
+        "tokens": [],
+        "rightAnswer": [],
+        "translation": []
+      }, {
+        "phrase": "te joca ô beisebol",
+        "pronunciation": "teióca ó beisebole",
+        "tokens": [],
+        "rightAnswer": [],
+        "translation": []
+      }, {
+        "phrase": "i jocan ô futebol insieme",
+        "pronunciation": "iócan ó futebole insieme",
+        "tokens": [],
+        "rightAnswer": [],
+        "translation": []
+      }, {
+        "phrase": "mi sape",
+        "pronunciation": "missápi",
+        "tokens": [],
+        "rightAnswer": [],
+        "translation": []
+      }, {
+        "phrase": "mi sape jocar ô futebol",
+        "pronunciation": "missápi iocá ó futebole",
+        "tokens": [],
+        "rightAnswer": [],
+        "translation": []
+      }, {
+        "phrase": "te sape jocar ô beisebol?",
+        "pronunciation": "tessápi iocá ó beisebóle",
+        "tokens": [],
+        "rightAnswer": [],
+        "translation": []
+      }, {
+        "phrase": "mi vole imparar a jocar ô futebol",
+        "pronunciation": "mivóli impará a iocá ó futebole",
+        "tokens": [],
+        "rightAnswer": [],
+        "translation": []
+      }, {
+        "phrase": "a pala",
+        "pronunciation": "a pala",
         "tokens": [],
         "rightAnswer": [],
         "translation": []
       }],
-      "enabled": false
+      "enabled": true
     },
     {
       "title": "Descrever Pessoas",
