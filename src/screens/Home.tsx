@@ -98,7 +98,7 @@ export function HomeScreen() {
           (
             <button
               className={`btn-${getColor()}`}
-              disabled={!lesson.enabled || data.points < index * 50}
+              disabled={!lesson.enabled || data.points < index * 33}
               style={{
                 width: "150px",
                 minWidth: "150px",
