@@ -1587,7 +1587,7 @@
         "pronunciation": "teióca ó beisebole",
         "tokens": ["você", "joga", "beisebol", "ao", "ti"],
         "rightAnswer": ["você", "joga", "beisebol"],
-        "translation": [["você", "joga", "ao", "beisebol"]
+        "translation": ["você", "joga", "ao", "beisebol"]
       }, {
         "phrase": "i jocan ô futebol insieme",
         "pronunciation": "iócan ó futebole insieme",
