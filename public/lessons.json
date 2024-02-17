@@ -1563,81 +1563,129 @@
     },
     {
       "title": "Esportes",
-      "icon": "",
+      "icon": "person-walking",
       "exercises": [{
         "phrase": "mi joca",
         "pronunciation": "mióca",
         "tokens": ["eu", "jogo", "joga", "mim"],
         "rightAnswer": ["eu", "jogo"],
-        "translation": []
+        "translation": ["eu", "jogo"]
       }, {
         "phrase": "te joca",
         "pronunciation": "teióca",
         "tokens": ["você", "joga", "jogam", "te", "para ti"],
         "rightAnswer": ["você", "joga"],
-        "translation": []
+        "translation": ["você", "joga"]
       }, {
         "phrase": "mi joca ô futebol",
         "pronunciation": "mióca ó futebóle",
         "tokens": ["eu", "jogo", "futebol", "joga", "mim", "não"],
         "rightAnswer": ["eu", "jogo", "futebol"],
-        "translation": []
+        "translation": ["eu", "jogo", "ao", "futebol"]
       }, {
         "phrase": "te joca ô beisebol",
         "pronunciation": "teióca ó beisebole",
         "tokens": ["você", "joga", "beisebol", "ao", "ti"],
         "rightAnswer": ["você", "joga", "beisebol"],
-        "translation": []
+        "translation": [["você", "joga", "ao", "beisebol"]
       }, {
         "phrase": "i jocan ô futebol insieme",
         "pronunciation": "iócan ó futebole insieme",
         "tokens": ["eles", "jogam", "futebol", "junto", "juntos", "ao", "vocês"],
         "rightAnswer": ["eles", "jogam", "futebol", "juntos"],
-        "translation": []
+        "translation": ["eles", "jogam", "ao", "futebol", "juntos"]
       }, {
         "phrase": "mi sape",
         "pronunciation": "missápi",
         "tokens": ["eu", "sei", "mim", "sabe"],
         "rightAnswer": ["eu", "sei"],
-        "translation": []
+        "translation": ["eu", "sei"]
       }, {
         "phrase": "mi sape jocar ô futebol",
         "pronunciation": "missápi iocá ó futebole",
         "tokens": ["eu", "sei", "jogar", "futebol", "sabe"],
         "rightAnswer": ["eu", "sei", "jogar", "futebol"],
-        "translation": []
+        "translation": ["eu", "sei", "jogar", "ao", "futebol"]
       }, {
         "phrase": "te sape jocar ô beisebol?",
         "pronunciation": "tessápi iocá ó beisebóle",
         "tokens": ["você", "sabe", "jogar", "bêisebol", "não"],
         "rightAnswer": ["você", "sabe", "jogar", "bêisebol"],
-        "translation": []
+        "translation": ["você", "sabe", "jogar", "ao", "bêisebol"]
       }, {
         "phrase": "mi vole imparar a jocar ô futebol",
         "pronunciation": "mivóli impará a iocá ó futebole",
         "tokens": ["eu", "quero", "mim", "quer", "aprender", "a", "jogar", "futebol"],
         "rightAnswer": ["eu", "quero", "aprender", "a", "jogar", "futebol"],
-        "translation": []
+        "translation": ["eu", "quero, quer", "aprender", "a", "jogar", "ao", "futebol"]
       }, {
         "phrase": "a pala",
         "pronunciation": "a pala",
         "tokens": ["a", "o", "bola", "bala"],
         "rightAnswer": ["a", "bola"],
-        "translation": []
+        "translation": ["a", "bola"]
       }],
       "enabled": true
     },
     {
-      "title": "Descrever Pessoas",
-      "icon": "",
+      "title": "Descrever Pessoas I",
+      "icon": "person-arms-up",
       "exercises": [{
-        "phrase": "",
-        "pronunciation": "",
-        "tokens": [],
-        "rightAnswer": [],
+        "phrase": "felice",
+        "pronunciation": "feliz",
+        "tokens": ["feliz", "triste", "bonita", "bonito", "mau", "má"],
+        "rightAnswer": ["feliz"],
+        "translation": []
+      }, {
+        "phrase": "triste",
+        "pronunciation": "tristi",
+        "tokens": ["feliz", "triste", "bonita", "bonito", "mau", "má"],
+        "rightAnswer": ["triste"],
+        "translation": []
+      }, {
+        "phrase": "belu",
+        "pronunciation": "bélu",
+        "tokens": ["feliz", "triste", "bonita", "bonito", "mau", "má"],
+        "rightAnswer": ["bonito"],
+        "translation": []
+      }, {
+        "phrase": "artu",
+        "pronunciation": "artu",
+        "tokens": ["inteligente", "alto", "alta", "outro", "outra"],
+        "rightAnswer": ["alto"],
+        "translation": []
+      }, {
+        "phrase": "arta",
+        "pronunciation": "arta",
+        "tokens": ["inteligente", "alto", "alta", "outro", "outra"],
+        "rightAnswer": ["alta"],
+        "translation": []
+      }, {
+        "phrase": "bela",
+        "pronunciation": "bela",
+        "tokens": ["feliz", "triste", "bonita", "bonito", "mau", "má"],
+        "rightAnswer": ["bonita"],
+        "translation": []
+      }, {
+        "phrase": "catiu",
+        "pronunciation": "catil",
+        "tokens": ["feliz", "triste", "bonita", "bonito", "mau", "má"],
+        "rightAnswer": ["mal"],
+        "translation": []
+      }, {
+        "phrase": "cativa",
+        "pronunciation": "cativa",
+        "tokens": ["feliz", "triste", "bonita", "bonito", "mau", "má"],
+        "rightAnswer": ["má"],
+        "translation": []
+      }, {
+        "phrase": "inteligente",
+        "pronunciation": "inteligent",
+        "tokens": ["inteligente", "alto", "alta", "outro", "outra"],
+        "rightAnswer": ["inteligente"],
         "translation": []
       }],
-      "enabled": false
+      "enabled": true
     },
     {
       "title": "Família",
